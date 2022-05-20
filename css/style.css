@@ -1,0 +1,206 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  line-height: 1.5;
+  width: 500px;
+  margin: auto;
+  font-family: "Cormorant SC", serif;
+}
+
+.header {
+  margin: auto;
+  font-size: 15px;
+}
+
+.logo-white {
+  width: 200px;
+  margin: 0 0 0 150px;
+}
+
+.menu {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu__item {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu__checkbox {
+  position: absolute;
+  left: -9999px;
+}
+
+.menu__toggler {
+  cursor: pointer;
+}
+
+.menu__list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__link {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.menu__checkbox:checked ~ .menu__list {
+  display: block;
+}
+
+.main-photo {
+  background-image: url(/images/Coffee2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 30px;
+}
+
+.welcome {
+  font-family: "Cormorant SC", serif;
+  text-align: center;
+}
+
+.welcome__title {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+
+.welcome__name {
+  font-size: 60px;
+  font-family: "Zen Loop", cursive;
+  margin: 0;
+}
+
+.welcome__offer {
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
+.welcome__reservation {
+  border: 5px solid #ECD9D9;
+  border-radius: 10px;
+  background-color: #ECD9D9;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+}
+
+.box1 {
+  background-color: #E9967A;
+  margin: 30px 0 20px 0;
+  padding: 20px;
+}
+
+.box1__title {
+  text-align: center;
+}
+
+.box1__description {
+  font-size: 15px;
+  text-align: justify;
+  padding: 10px 50px 10px 50px;
+}
+
+.box2__opening {
+  padding: 0 0 0 30px;
+}
+
+.box2__title {
+  font-size: 25px;
+  margin: 10px 0 0 0;
+}
+
+.box2__description {
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+.box2__date {
+  margin: 0;
+}
+
+.box2__events {
+  text-align: center;
+}
+
+.event__photo {
+  opacity: 30%;
+  max-width: 100%;
+  height: auto;
+  padding: 0 90px 0 90px;
+}
+
+.event__backgroud {
+  background-color: #ECD9D9;
+  padding: 20px;
+}
+
+.event {
+  text-align: left;
+}
+
+.contact {
+  background-color: #E9967A;
+  padding: 0 0 0 30px;
+  margin-bottom: 30px;
+}
+
+.contact__title {
+  font-size: 25px;
+  padding: 15px 0 0 0;
+}
+
+.contact__address {
+  margin: 0;
+}
+
+.instagram {
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  width: 18px;
+  margin-bottom: 10px;
+}
+
+.logo-orange {
+  border-radius: 60px;
+}
+
+.footer {
+  color: black;
+  background-color: #E9967A;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  margin: auto;
+  font-family: "Zen Loop", cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer__name,
+.footer__since {
+  margin: 0;
+}
+
+hr {
+  margin: 0 150px 0 0;
+}/*# sourceMappingURL=style.css.map */
