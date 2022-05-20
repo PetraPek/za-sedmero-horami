@@ -1,19 +1,17 @@
+@use "colors";
+@use "fonts";
+
+
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-$color-primary: #E9967A;
-$color-button: #ECD9D9;
-$color-box: #C4C4C4;
-
-$default-font: 'Cormorant SC', serif;
-$secondary-font: 'Zen Loop', cursive;
 
 body {
     padding: 0;
     line-height: 1.5;
     width:500px;
     margin: auto;
-	font-family: $default-font;
+	font-family: fonts.$default-font;
 }
 
 .header {
@@ -28,9 +26,9 @@ body {
 
 .menu {
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin: 0 0 20px 20px;
+	font-size: 16px;
 }
-
 
 .menu__item {
 	display: inline-block;
@@ -72,7 +70,7 @@ body {
 }
 
 .welcome {
-	font-family: $default-font;
+	font-family: fonts.$default-font;
 	text-align: center;
 }
 
@@ -83,7 +81,7 @@ body {
 
 .welcome__name {
 	font-size: 60px;
-	font-family: $secondary-font;
+	font-family: fonts.$secondary-font;
 	margin: 0;
 }
 
@@ -93,9 +91,9 @@ body {
 }
 
 .welcome__reservation {
-	border: 5px solid $color-button;
+	border: 5px solid colors.$color-button;
 	border-radius: 10px;
-	background-color: $color-button;
+	background-color: colors.$color-button;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -106,66 +104,94 @@ body {
 }
 
 .box1 {
-	background-color: $color-primary;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
 	margin: 30px 0 20px 0;
 	padding: 20px;
 }
 
-.box1__title {
+
+.presented__title {
 	text-align: center;
-	
 }
 
-.box1__description {
+.presented__description {
 	font-size: 15px;
     text-align: justify;
     padding: 10px 50px 10px 50px;
-	
 }
 
-.box2__opening {
-	padding: 0 0 0 30px;
+.event__title {
+	text-align: center; 
 }
 
-.box2__title {
-	font-size: 25px;
-	margin: 10px 0 0 0;
-}
-
-.box2__description {
-	font-weight: bold;
-	margin: 0 0 15px 0;
-}
-
-.box2__date {
-	margin: 0;
-}
-
-.box2__events {
-	text-align: center;
-}
-
-.event__photo {
-	opacity: 30%;
-	max-width: 100%;
-	height: auto;
-	padding: 0 90px 0 90px;
-}
-
-.event__backgroud {
-	background-color: $color-button;
+.event__prosecco {
+	background-image: url(/images/1Prosecco.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	padding: 20px;
-	
+	margin: 0 70px 20px 70px;
+	border-radius: 5px;
 }
 
 .event {
-	text-align: left;
+	max-width: 500px;
+}
+
+.event__prosecco-name,
+.event__prosecco-date {
+	font-size: 24px;
+    font-style: italic;
+	font-weight: bold;
+    padding-top: 15px;
+	margin-top: 20px;
+	color: black;
+    margin: 0;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+	text-decoration: none;
+}
+
+.event__prosecco-date {
+	padding: 0;
+}
+
+.event__title {
+	text-align: center; 
+}
+
+.event__coffee {
+	background-image: url(/images/Coffee44.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	margin: 0 70px 0 70px;
+	border-radius: 5px;
+}
+
+.event {
+	max-width: 500px;
+}
+
+.event__coffee-name,
+.event__coffee-date {
+	font-size: 24px;
+    font-style: italic;
+	font-weight: bold;
+    padding-top: 15px;
+	margin-top: 20px;
+	color: black;
+    margin: 0;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+}
+
+.event__coffee-date {
+	padding: 0;
 }
 
 .contact {
-	background-color: $color-primary;
-	padding: 0 0 0 30px;
-	margin-bottom: 30px;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+	margin-bottom: 20px;
 }
 
 .contact__title {
@@ -187,22 +213,52 @@ body {
 	margin-bottom: 10px;
 }
 
-.logo-orange {
-	border-radius: 60px;
+
+.offer {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	margin-bottom: 20px;
 }
 
+.accessories__bag {
+	border-radius: 5px;
+}
 
+.accessories__title {
+	text-align: left;
+	margin-top: 0;
+}
 
+.accessories__price {
+	text-align: left;
+	margin-top: 0;
+}
 
+.accessories__offer {
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-image: url(/images/0tin_mug.jpg)
+}
 
+.accessories__offer-desc {
+	margin-top: 160px;
+}
 
 .footer {
 	color: black;
-	background-color: $color-primary;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
 	padding: 5px 0 5px 0;
 	text-align: center;
 	margin: auto;
-	font-family: $secondary-font;
+	font-family: fonts.$secondary-font;
 	font-size: 15px;
 	font-weight: bold;
 }
@@ -214,10 +270,7 @@ body {
 
 
 
-hr {
-	margin: 0 150px 0 0;
 
-}
 
 
 

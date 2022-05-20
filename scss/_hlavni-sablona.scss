@@ -1,0 +1,65 @@
+@use "style.scss";
+
+
+
+body {
+    padding: 0;
+    line-height: 1.5;
+    width:500px;
+    margin: auto;
+	font-family: fonts.$default-font;
+}
+
+.header {
+	margin: auto;
+	font-size: 15px;
+}
+
+.logo-white {
+	width: 200px;
+	margin: 0 0 0 150px;
+}
+
+.menu {
+	font-weight: bold;
+	margin: 0 0 20px 20px;
+}
+
+.menu__item {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu__checkbox {
+	position: absolute;
+	left: -9999px;
+}
+
+.menu__toggler {
+	cursor: pointer;
+}
+
+.menu__list {
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu__link {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.menu__checkbox:checked ~ .menu__list {
+	display: block;
+}
+
+.main-photo {
+	background-image: url(/images/Coffee2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 50px 30px;
+}
