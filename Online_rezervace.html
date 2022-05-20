@@ -3,59 +3,72 @@ layout: hlavni-sablona
 title: Online rezervace
 ---
 
-<h2>Online rezervace</h2>
+<h2 class="reservation-title" >Online rezervace</h2>
 
 <form action="http://formular.itgirls.cz" method="post">
 
-    <label for="jmeno">Jméno</label>
-         <input 
-            type="text"
-             name="jmeno"
-            id="jmeno"
-            placeholder="Křestní jméno"
-            autofocus
-            required
-        >
+
+<div class="form-field">
+    <label for="jmeno">Jméno<span class="reguired">*</span></label>
+    <input 
+        type="text" 
+        name="jmeno" 
+        id="jmeno" 
+        placeholder="Křestní jméno" 
+        autofocus
+        reguired>
+</div>
     
-    <label for="prijmeni">Přijmení</label>
+<div class="form-field">
+    <label for="prijmeni">Přijmení<span class="reguired">*</span></label>
         <input 
             type="text"
             name="prijmeni"
             id="prijmeni"
             placeholder="Přijmení"
             autofocus
-            required
-            >
+            required>
+</div>
 
-    <label for="email">E-mail</label>
+<div class="form-field">
+    <label for="email">E-mail<span class="reguired">*</span></label>
         <input 
             type="email"
             name="email"
             id="email"
             placeholder="E-mail"
             autofocus
-            required
-        >
-    
-    <label for="kalendar">Kdy nás chcete navštívit?</label>
+            required>
+</div>   
+
+
+<div class="form-field">
+    <label for="kalendar">Kdy nás chcete navštívit?<span class="reguired">*</span></label>
         <input 
             type="date"
             name="kalendar"
             id="kalendar"
             autofocus
-            required
-        >
+            required>
+</div>
 
-    <label for="cas">V kolik hodin Vás máme čekat?</label>
+
+<div class="form-field">
+    <label for="cas">V kolik hodin Vás máme čekat?<span class="reguired">*</span></label>
         <input 
             type="time"
             name="cas"
             id="cas"
             autofocus
-            required
-        >
+            required>
+</div>
 
-    <input type="submit" value="Potvrdit rezervaci">
+<input type="checkbox" name="souhlas" id="souhlas" value="ano">
+<label for="souhlas">Souhlasím se zpracováním osobních údajů</label>
+
+<div class="confirm-reservation">
+    <button class="button-reservation" type="submit">Potvrdit rezervaci</button>
+</div>
 
 </form>
 

@@ -189,6 +189,11 @@ body {
 	padding: 0;
 }
 
+.prosecco-link
+.coffee-link {
+	text-decoration: none;
+}
+
 .contact {
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
 	margin-bottom: 20px;
@@ -250,6 +255,28 @@ body {
 
 .accessories__offer-desc {
 	margin-top: 160px;
+}
+
+.reservation-title {
+	text-align: center;
+}
+
+.form-field {
+	margin-bottom: 20px;
+}
+
+.form-field label {
+	display: block;
+	font-size: 20px;
+	
+}
+
+.confirm-reservation {
+	margin: 20px 190px 20px 190px;
+}
+
+.reguired {
+	color: red;
 }
 
 .footer {
