@@ -1,0 +1,33 @@
+@use "colors";
+@use "fonts";
+
+.logo-orange {
+	width: 140px;
+	border-radius: 90%;
+	margin: 20px 180px 0 180px;
+}
+
+.menu-background-main {
+	background-image: url(/images/cinnamon.back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.menu-menu {
+	color: white;
+	font-weight: bold;
+	margin: 0 0 20px 20px;
+	font-size: 16px;
+}
+
+.menu-background-second {
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.5);
+	padding: 15px;
+	border-radius: 100px;
+}
+
+.menu__title {
+	margin: 10px 140px 10px 140px;
+	font-size: 30px;
+}

@@ -189,6 +189,9 @@ body {
   margin-bottom: 10px;
 }
 
+.accessories__gifts {
+  text-align: center;
+}
 .accessories__bag {
   border-radius: 5px;
   margin-right: 40px;
@@ -298,18 +301,84 @@ body {
   margin: 0;
 }
 
-html {
-  box-sizing: border-box;
+.offer__title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.offer__box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 10px 30px;
+}
+.offer__title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.offer__meal {
+  margin: 0 0 0 30px;
+  font-size: 16px;
+  color: white;
+}
+.offer__line {
+  margin: 0 30px 0 30px;
+}
+.offer__description, .offer__price {
+  margin: 0 20px 20px 0;
+  color: white;
+  font-size: 15px;
+}
+.offer__h5 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.offer__coffee-title, .offer__coffee-price {
+  margin: 0 20px 5px 0;
+  color: white;
+  font-size: 15px;
+}
+.offer__hot-title, .offer__hot-price {
+  margin: 0 20px 5px 0;
+  color: white;
+  font-size: 15px;
+}
+.offer__softd-title, .offer__softd-price {
+  margin: 0 20px 5px 0;
+  color: white;
+  font-size: 15px;
+}
+.offer__alcohol-title, .offer__alcohol-price {
+  margin: 0 20px 5px 0;
+  color: white;
+  font-size: 15px;
 }
 
-*, ::before, ::after {
-  box-sizing: inherit;
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 150px;
+  gap: 0px;
+  margin: 20px;
+}
+.gallery__item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 90%;
+  border-radius: 5px;
+}
+.gallery__item:first-child(5n+2) {
+  grid-column: span 1;
+  grid-row: span 1;
 }
 
 .logo-orange {
   width: 140px;
   border-radius: 90%;
-  margin: 40px 180px 20px 180px;
+  margin: 20px 180px 0 180px;
 }
 
 .menu-background-main {
@@ -328,113 +397,49 @@ html {
 
 .menu-background-second {
   background-color: rgba(233, 150, 122, 0.5);
+  padding: 15px;
   border-radius: 100px;
 }
 
 .menu__title {
-  margin: 20px 140px 10px 140px;
+  margin: 10px 140px 10px 140px;
   font-size: 30px;
 }
 
-.menu-line {
-  color: black;
-  margin: 0 40px 0 40px;
+html {
+  box-sizing: border-box;
 }
 
-.gallery__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 150px;
-  gap: 0px;
-  margin: 20px;
+*, ::before, ::after {
+  box-sizing: inherit;
 }
 
-.gallery__item {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 90%;
-  border-radius: 5px;
-}
-
-.gallery__item:first-child(5n+2) {
-  grid-column: span 1;
-  grid-row: span 1;
-}
-
-.offer-title {
+.events__main-title {
   text-align: center;
-  padding-top: 20px;
   color: white;
   font-size: 30px;
 }
-
-.offer {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 20px 10px 30px;
+.events__photo-prosecco, .events__photo-coffee {
+  width: 100%;
+  padding: 40px;
+  border-radius: 50%;
+  opacity: 60%;
 }
-
-.offer-meal {
-  margin: 0 0 0 30px;
-  font-size: 16px;
-  color: white;
-}
-
-.offer-line {
-  margin: 0 30px 0 30px;
-}
-
-.offer-description,
-.offer-price {
-  margin: 0 20px 20px 0;
-  color: white;
-  font-size: 15px;
-}
-
-.h5 {
+.events__title-prosecco, .events__title-coffee {
   text-align: center;
   color: white;
   font-size: 20px;
+  margin: 0;
 }
-
-.coffee-title,
-.coffee-price {
-  margin: 0 20px 5px 0;
-  color: white;
-  font-size: 15px;
-}
-
-.hot-title,
-.hot-price {
-  margin: 0 20px 5px 0;
-  color: white;
-  font-size: 15px;
-}
-
-.softd-title,
-.softd-price {
-  margin: 0 20px 5px 0;
-  color: white;
-  font-size: 15px;
-}
-
-.alcohol-title,
-.alcohol-price {
-  margin: 0 20px 5px 0;
-  color: white;
-  font-size: 15px;
-}
-
-.reservation-menu {
-  border-radius: 20px;
-  background-color: #ECD9D9;
-  text-decoration: none;
-  text-transform: uppercase;
+.events__date-prosecco, .events__date-coffee {
   text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: black;
-  margin: 20px 90px 20px 90px;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+.events__descriptions-prosecco, .events__descriptions-coffee {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
