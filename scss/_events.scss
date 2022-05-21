@@ -20,23 +20,18 @@
 
 &__prosecco-name,
 &__prosecco-date {
-        font-size: 24px;
-        font-style: italic;
+        font-size: 18px;
         font-weight: bold;
         padding-top: 15px;
         margin-top: 20px;
+        text-align: center;
         color: black;
         margin: 0;
         background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
-        text-decoration: none;
     }
 
 &__prosecco-date {
-        padding: 0;
-    }
-    
-&__title {
-        text-align: center; 
+        padding-bottom: 10px;
     }
     
 &__coffee {
@@ -51,22 +46,22 @@
 
 &__coffee-name,
 &__coffee-date {
-        font-size: 24px;
-        font-style: italic;
+        font-size: 18px;
         font-weight: bold;
         padding-top: 15px;
         margin-top: 20px;
+        text-align: center;
         color: black;
         margin: 0;
         background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
     }
     
 &__coffee-date {
-        padding: 0;
+        padding-bottom: 10px;
     }
 }
 
-.prosecco-link
+.prosecco-link,
 .coffee-link {
-	text-align: none;
+    text-decoration: none;
 }

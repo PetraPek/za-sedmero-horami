@@ -116,21 +116,17 @@ body {
   border-radius: 5px;
 }
 .event__prosecco-name, .event__prosecco-date {
-  font-size: 24px;
-  font-style: italic;
+  font-size: 18px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
+  text-align: center;
   color: black;
   margin: 0;
   background-color: rgba(233, 150, 122, 0.2);
-  text-decoration: none;
 }
 .event__prosecco-date {
-  padding: 0;
-}
-.event__title {
-  text-align: center;
+  padding-bottom: 10px;
 }
 .event__coffee {
   background-image: url(/images/Coffee44.jpg);
@@ -142,21 +138,22 @@ body {
   border-radius: 5px;
 }
 .event__coffee-name, .event__coffee-date {
-  font-size: 24px;
-  font-style: italic;
+  font-size: 18px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
+  text-align: center;
   color: black;
   margin: 0;
   background-color: rgba(233, 150, 122, 0.2);
 }
 .event__coffee-date {
-  padding: 0;
+  padding-bottom: 10px;
 }
 
-.prosecco-link .coffee-link {
-  text-align: none;
+.prosecco-link,
+.coffee-link {
+  text-decoration: none;
 }
 
 .contact {
@@ -164,17 +161,27 @@ body {
   margin-bottom: 20px;
 }
 .contact__title {
-  font-size: 25px;
+  font-size: 18px;
   padding: 15px 0 0 0;
   margin-left: 30px;
 }
 .contact__address {
-  margin: 0;
+  margin: 0 0 0 30px;
+  font-size: 13px;
+}
+.contact__email {
+  margin: 10px 0 0 30px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.contact__phone {
+  margin: 10px 0 0 30px;
+  font-size: 13px;
 }
 
 .instagram {
   width: 20px;
-  margin-bottom: 10px;
+  margin: 20px 0 10px 30px;
 }
 
 .facebook {
@@ -185,6 +192,7 @@ body {
 .accessories__bag {
   border-radius: 5px;
   margin-right: 40px;
+  width: 250px;
 }
 .accessories__title {
   text-align: left;
