@@ -1,0 +1,125 @@
+@use "colors";
+@use "fonts";
+
+.gifts-title {
+    text-align: center;
+}
+
+.gift1 {
+    display: flex;
+
+&__bag {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
+}
+
+.gift2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+&__hoodie {
+        width: 250px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
+}
+
+
+.gift3 {
+    display: flex;
+
+&__tshirt {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
+}
+
+.gift4 {
+    display: flex;
+    flex-direction: row-reverse;
+
+&__mug {
+        width: 250px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
+}
+
+.gift5 {
+    display: flex;
+    
+
+&__tin-mug {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
+}

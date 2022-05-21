@@ -436,14 +436,6 @@ body {
   color: white;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*, ::before, ::after {
-  box-sizing: inherit;
-}
-
 .gifts-title {
   text-align: center;
 }
@@ -543,4 +535,12 @@ html {
 }
 .gift5__line {
   margin: 5px 120px 5px 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
 }/*# sourceMappingURL=style.css.map */
