@@ -9,6 +9,7 @@
 @use "form-reservation";
 @use "thanks-reservation";
 @use "opening-hours";
+@use "footer";
 
 
 html { box-sizing: border-box; }
@@ -23,6 +24,9 @@ html { box-sizing: border-box; }
 
 .menu-background-main {
 	background-image: url(/images/cinnamon.back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .menu-menu {
@@ -48,8 +52,7 @@ html { box-sizing: border-box; }
 }
 
 .reservation-menu {
-	border: 5px solid colors.$color-button;
-	border-radius: 10px;
+	border-radius: 20px;
 	background-color: colors.$color-button;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -57,34 +60,9 @@ html { box-sizing: border-box; }
 	font-weight: bold;
 	font-size: 18px;
 	color: black;
-	margin: 20px 70px 20px 70px;
+	margin: 20px 90px 20px 90px;
+	padding: 10px;
 }
-
-
-
-
-
-
-
-
-.footer {
-	color: black;
-	background-color: rgba($color: colors.$color-primary, $alpha: 0.5);
-	padding: 5px 0 5px 0;
-	text-align: center;
-	margin: auto;
-	font-family: fonts.$secondary-font;
-	font-size: 15px;
-	font-weight: bold;
-}
-
-.footer__name,
-.footer__since {
-    margin: 0;
-}
-
-
-
 
 
 
