@@ -12,49 +12,131 @@
 @use "footer";
 @use "menu";
 @use "second-template";
+@use "events-details";
 
 
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-.events {
-
-&__main-title {
+.gifts-title {
     text-align: center;
-	color:white;
-	font-size: 30px;
 }
 
-&__photo-prosecco,
-&__photo-coffee {
-    width: 100%;
-    padding: 40px;
-    border-radius: 50%;
-    opacity: 60%,
+.gift1 {
+    display: flex;
+
+&__bag {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
 }
 
-&__title-prosecco,
-&__title-coffee {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    margin: 0;
+.gift2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+&__hoodie {
+        width: 250px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
 }
 
-&__date-prosecco,
-&__date-coffee {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    margin: 0;
+
+.gift3 {
+    display: flex;
+
+&__tshirt {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
 }
 
-&__descriptions-prosecco,
-&__descriptions-coffee {
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-    color: white;
+.gift4 {
+    display: flex;
+    flex-direction: row-reverse;
+
+&__mug {
+        width: 250px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
 }
 
+.gift5 {
+    display: flex;
+    
+
+&__tin-mug {
+        width: 200px;
+        padding: 0 0px 60px 0px;
+        margin-right: 10px;
+    }
+    
+&__title {
+        margin: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    
+&__price {
+        margin: 0;
+    }
+    
+&__line {
+        margin: 5px 120px 5px 0;
+    }
 }

@@ -1,0 +1,44 @@
+@use "colors";
+@use "fonts";
+
+.events {
+
+    &__main-title {
+        text-align: center;
+        color:white;
+        font-size: 30px;
+    }
+    
+    &__photo-prosecco,
+    &__photo-coffee {
+        width: 100%;
+        padding: 10px 50px 10px 50px;
+        border-radius: 5px;
+        opacity: 60%,
+    }
+    
+    &__title-prosecco,
+    &__title-coffee {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    &__date-prosecco,
+    &__date-coffee {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        margin: 0;
+    }
+    
+    &__descriptions-prosecco,
+    &__descriptions-coffee {
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+        color: white;
+    }
+    
+    }

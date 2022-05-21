@@ -406,14 +406,6 @@ body {
   font-size: 30px;
 }
 
-html {
-  box-sizing: border-box;
-}
-
-*, ::before, ::after {
-  box-sizing: inherit;
-}
-
 .events__main-title {
   text-align: center;
   color: white;
@@ -421,8 +413,8 @@ html {
 }
 .events__photo-prosecco, .events__photo-coffee {
   width: 100%;
-  padding: 40px;
-  border-radius: 50%;
+  padding: 10px 50px 10px 50px;
+  border-radius: 5px;
   opacity: 60%;
 }
 .events__title-prosecco, .events__title-coffee {
@@ -442,4 +434,113 @@ html {
   padding: 20px;
   margin: 0;
   color: white;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.gifts-title {
+  text-align: center;
+}
+
+.gift1 {
+  display: flex;
+}
+.gift1__bag {
+  width: 200px;
+  padding: 0 0px 60px 0px;
+  margin-right: 10px;
+}
+.gift1__title {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.gift1__price {
+  margin: 0;
+}
+.gift1__line {
+  margin: 5px 120px 5px 0;
+}
+
+.gift2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gift2__hoodie {
+  width: 250px;
+  padding: 0 0px 60px 0px;
+  margin-right: 10px;
+}
+.gift2__title {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.gift2__price {
+  margin: 0;
+}
+.gift2__line {
+  margin: 5px 120px 5px 0;
+}
+
+.gift3 {
+  display: flex;
+}
+.gift3__tshirt {
+  width: 200px;
+  padding: 0 0px 60px 0px;
+  margin-right: 10px;
+}
+.gift3__title {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.gift3__price {
+  margin: 0;
+}
+.gift3__line {
+  margin: 5px 120px 5px 0;
+}
+
+.gift4 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.gift4__mug {
+  width: 250px;
+  padding: 0 0px 60px 0px;
+  margin-right: 10px;
+}
+.gift4__title {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.gift4__price {
+  margin: 0;
+}
+.gift4__line {
+  margin: 5px 120px 5px 0;
+}
+
+.gift5 {
+  display: flex;
+}
+.gift5__tin-mug {
+  width: 200px;
+  padding: 0 0px 60px 0px;
+  margin-right: 10px;
+}
+.gift5__title {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.gift5__price {
+  margin: 0;
+}
+.gift5__line {
+  margin: 5px 120px 5px 0;
 }/*# sourceMappingURL=style.css.map */
