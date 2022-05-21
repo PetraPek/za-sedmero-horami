@@ -1,11 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*, ::before, ::after {
-  box-sizing: inherit;
-}
-
 body {
   padding: 0;
   line-height: 1.5;
@@ -27,36 +19,29 @@ body {
 .menu {
   font-weight: bold;
   margin: 0 0 20px 20px;
-  font-size: 16px;
 }
-
 .menu__item {
   display: inline-block;
   text-decoration: none;
 }
-
 .menu__checkbox {
   position: absolute;
   left: -9999px;
 }
-
 .menu__toggler {
   cursor: pointer;
 }
-
 .menu__list {
   display: none;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .menu__link {
   display: block;
   padding: 15px;
   text-decoration: none;
 }
-
 .menu__checkbox:checked ~ .menu__list {
   display: block;
 }
@@ -73,23 +58,19 @@ body {
   font-family: "Cormorant SC", serif;
   text-align: center;
 }
-
 .welcome__title {
   font-size: 30px;
   margin: 10px 0 10px 0;
 }
-
 .welcome__name {
   font-size: 60px;
   font-family: "Zen Loop", cursive;
   margin: 0;
 }
-
 .welcome__offer {
   font-size: 20px;
   margin: 0 0 30px 0;
 }
-
 .welcome__reservation {
   border: 5px solid #ECD9D9;
   border-radius: 10px;
@@ -119,10 +100,12 @@ body {
   padding: 10px 50px 10px 50px;
 }
 
+.event {
+  max-width: 500px;
+}
 .event__title {
   text-align: center;
 }
-
 .event__prosecco {
   background-image: url(/images/1Prosecco.jpg);
   background-repeat: no-repeat;
@@ -132,13 +115,7 @@ body {
   margin: 0 70px 20px 70px;
   border-radius: 5px;
 }
-
-.event {
-  max-width: 500px;
-}
-
-.event__prosecco-name,
-.event__prosecco-date {
+.event__prosecco-name, .event__prosecco-date {
   font-size: 24px;
   font-style: italic;
   font-weight: bold;
@@ -149,15 +126,12 @@ body {
   background-color: rgba(233, 150, 122, 0.2);
   text-decoration: none;
 }
-
 .event__prosecco-date {
   padding: 0;
 }
-
 .event__title {
   text-align: center;
 }
-
 .event__coffee {
   background-image: url(/images/Coffee44.jpg);
   background-repeat: no-repeat;
@@ -167,13 +141,7 @@ body {
   margin: 0 70px 0 70px;
   border-radius: 5px;
 }
-
-.event {
-  max-width: 500px;
-}
-
-.event__coffee-name,
-.event__coffee-date {
+.event__coffee-name, .event__coffee-date {
   font-size: 24px;
   font-style: italic;
   font-weight: bold;
@@ -183,25 +151,23 @@ body {
   margin: 0;
   background-color: rgba(233, 150, 122, 0.2);
 }
-
 .event__coffee-date {
   padding: 0;
 }
 
 .prosecco-link .coffee-link {
-  text-decoration: none;
+  text-align: none;
 }
 
 .contact {
   background-color: rgba(233, 150, 122, 0.2);
   margin-bottom: 20px;
 }
-
 .contact__title {
   font-size: 25px;
   padding: 15px 0 0 0;
+  margin-left: 30px;
 }
-
 .contact__address {
   margin: 0;
 }
@@ -216,27 +182,18 @@ body {
   margin-bottom: 10px;
 }
 
-.offer {
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  margin-bottom: 20px;
-}
-
 .accessories__bag {
   border-radius: 5px;
+  margin-right: 40px;
 }
-
 .accessories__title {
   text-align: left;
   margin-top: 0;
 }
-
 .accessories__price {
   text-align: left;
   margin-top: 0;
 }
-
 .accessories__offer {
   border-radius: 5px;
   text-decoration: none;
@@ -249,9 +206,16 @@ body {
   margin-bottom: 20px;
   background-image: url(/images/0tin_mug.jpg);
 }
-
 .accessories__offer-desc {
   margin-top: 160px;
+  font-size: 15px;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin-bottom: 20px;
 }
 
 .reservation-title {
@@ -300,6 +264,24 @@ body {
   color: black;
   border: 1px solid black;
   padding: 10px;
+}
+
+.opening {
+  margin-left: 30px;
+}
+.opening__description {
+  font-weight: bold;
+}
+.opening__date {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
 }
 
 .logo-orange {

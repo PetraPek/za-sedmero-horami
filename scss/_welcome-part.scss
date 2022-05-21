@@ -1,0 +1,44 @@
+@use "colors";
+@use "fonts";
+
+.welcome {
+	font-family: fonts.$default-font;
+	text-align: center;
+
+&__title {
+        font-size: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+&__name {
+        font-size: 60px;
+        font-family: fonts.$secondary-font;
+        margin: 0;
+    }
+
+&__offer {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+&__reservation {
+        border: 5px solid colors.$color-button;
+        border-radius: 10px;
+        background-color: colors.$color-button;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+        padding: 10px;
+    }
+
+}
+
+
+
+
+
+
+

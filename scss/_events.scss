@@ -1,0 +1,72 @@
+@use "colors";
+@use "fonts";
+
+.event {
+	max-width: 500px;
+
+&__title {
+        text-align: center; 
+    }
+
+&__prosecco {
+        background-image: url(/images/1Prosecco.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        margin: 0 70px 20px 70px;
+        border-radius: 5px;
+    }
+
+&__prosecco-name,
+&__prosecco-date {
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-top: 20px;
+        color: black;
+        margin: 0;
+        background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+        text-decoration: none;
+    }
+
+&__prosecco-date {
+        padding: 0;
+    }
+    
+&__title {
+        text-align: center; 
+    }
+    
+&__coffee {
+        background-image: url(/images/Coffee44.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+        margin: 0 70px 0 70px;
+        border-radius: 5px;
+    }
+
+&__coffee-name,
+&__coffee-date {
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-top: 20px;
+        color: black;
+        margin: 0;
+        background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+    }
+    
+&__coffee-date {
+        padding: 0;
+    }
+}
+
+.prosecco-link
+.coffee-link {
+	text-align: none;
+}

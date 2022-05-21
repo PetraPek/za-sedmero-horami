@@ -1,0 +1,14 @@
+@use "colors";
+@use "fonts";
+
+.opening {
+	margin-left: 30px;
+
+&__description {
+	font-weight: bold;
+}
+
+&__date{
+	margin: 0;
+}
+}

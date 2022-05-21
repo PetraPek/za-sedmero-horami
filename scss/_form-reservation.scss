@@ -1,0 +1,36 @@
+@use "colors";
+@use "fonts";
+
+
+.reservation-title {
+	text-align: center;
+}
+
+.form-field {
+	margin-bottom: 20px;
+}
+
+.form-field label {
+	display: block;
+	font-size: 20px;
+	
+}
+
+.confirm-reservation {
+	margin: 20px 190px 20px 190px;
+}
+
+.reguired {
+	color: red;
+}
+
+.reservation-title {
+	text-align: center;
+}
+
+.reservation {
+	padding: 80px;
+	margin: 30px 20px 30px 20px;
+	border-radius: 5px;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+}
