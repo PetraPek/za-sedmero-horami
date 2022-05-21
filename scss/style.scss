@@ -37,7 +37,7 @@ html { box-sizing: border-box; }
 }
 
 .menu-background-second {
-	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.5);
 	border-radius: 100px;
 }
 
@@ -51,6 +51,91 @@ html { box-sizing: border-box; }
 	margin: 0 40px 0 40px;
 }
 
+.gallery__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 150px;
+	gap: 0px;
+	margin: 20px;
+}
+
+.gallery__item {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 90%;
+	border-radius: 5px;
+}
+
+.gallery__item:first-child(5n+2) {
+	grid-column: span 1;
+	grid-row: span 1;
+}
+
+.offer-title {
+	text-align: center;
+	padding-top: 20px;
+	color:white;
+	font-size: 30px;
+}
+
+.offer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px 10px 30px;
+}
+
+.offer-meal {
+	margin: 0 0 0 30px;
+	font-size: 16px;
+	color: white;
+}
+
+.offer-line {
+	margin: 0 30px 0 30px;
+}
+
+.offer-description,
+.offer-price {
+	margin: 0 20px 20px 0;
+	color: white;
+	font-size: 15px;
+}
+
+.h5 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+.coffee-title,
+.coffee-price {
+	margin: 0 20px 5px 0;
+	color: white;
+	font-size: 15px;
+}
+
+.hot-title,
+.hot-price {
+	margin: 0 20px 5px 0;
+	color: white;
+	font-size: 15px;
+}
+
+.softd-title,
+.softd-price {
+	margin: 0 20px 5px 0;
+	color: white;
+	font-size: 15px;
+}
+
+.alcohol-title,
+.alcohol-price {
+	margin: 0 20px 5px 0;
+	color: white;
+	font-size: 15px;
+}
+
 .reservation-menu {
 	border-radius: 20px;
 	background-color: colors.$color-button;
@@ -61,9 +146,4 @@ html { box-sizing: border-box; }
 	font-size: 18px;
 	color: black;
 	margin: 20px 90px 20px 90px;
-	padding: 10px;
 }
-
-
-
-
