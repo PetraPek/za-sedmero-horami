@@ -47,11 +47,11 @@ body {
 }
 
 .main-photo {
-  background-image: url(/images/Coffee2.jpg);
+  background-image: url(/images/Interior1\ -\ mini.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 50px 30px;
+  padding: 70px 40px;
 }
 
 .welcome {
@@ -226,7 +226,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  margin-bottom: 20px;
+  margin: 10px 30px 10px 30px;
 }
 
 .reservation-title {
@@ -234,7 +234,7 @@ body {
 }
 
 .form-field {
-  margin-bottom: 20px;
+  margin: 10px 30px 10px 30px;
 }
 
 .form-field label {
@@ -289,13 +289,46 @@ body {
 
 .footer {
   color: black;
-  background-color: rgba(233, 150, 122, 0.5);
-  padding: 5px 0 5px 0;
+  background-color: rgba(233, 150, 122, 0.2);
   text-align: center;
   margin: auto;
   font-family: "Zen Loop", cursive;
-  font-size: 15px;
+  font-size: 9px;
   font-weight: bold;
+}
+.footer__summary {
+  display: flex;
+}
+.footer__logo-white {
+  width: 100px;
+  margin: 10px 30px 0px 60px;
+}
+.footer__contact {
+  font-size: 8px;
+  margin: 30px 30px 0px 30px;
+}
+.footer__contact-address-street {
+  margin: 0;
+}
+.footer__contact-address-town {
+  margin: 0;
+}
+.footer__contact-link {
+  margin-bottom: 0;
+}
+.footer__contact-phone {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer__hours {
+  font-size: 8px;
+  margin: 40px 30px 0px 30px;
+}
+.footer__hours-open-week {
+  margin: 0;
+}
+.footer__hours-open-weekend {
+  margin: 0;
 }
 .footer__name, .footer__since {
   margin: 0;
@@ -359,7 +392,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
-  gap: 0px;
+  gap: 10px;
   margin: 20px;
 }
 .gallery__item {
@@ -442,6 +475,7 @@ body {
 
 .gift1 {
   display: flex;
+  margin: 5px 30px 5px 30px;
 }
 .gift1__bag {
   width: 200px;
@@ -462,6 +496,7 @@ body {
 .gift2 {
   display: flex;
   flex-direction: row-reverse;
+  margin: 5px 30px 5px 30px;
 }
 .gift2__hoodie {
   width: 250px;
@@ -481,6 +516,7 @@ body {
 
 .gift3 {
   display: flex;
+  margin: 5px 30px 5px 30px;
 }
 .gift3__tshirt {
   width: 200px;
@@ -501,6 +537,7 @@ body {
 .gift4 {
   display: flex;
   flex-direction: row-reverse;
+  margin: 5px 30px 5px 30px;
 }
 .gift4__mug {
   width: 250px;
@@ -520,6 +557,7 @@ body {
 
 .gift5 {
   display: flex;
+  margin: 5px 30px 5px 30px;
 }
 .gift5__tin-mug {
   width: 200px;
