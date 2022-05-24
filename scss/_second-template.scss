@@ -24,7 +24,9 @@
 .menu-background-second {
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.5);
 	padding: 15px;
-	border-radius: 100px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	
 }
 
 .menu__title {

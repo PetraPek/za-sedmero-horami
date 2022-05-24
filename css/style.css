@@ -431,7 +431,8 @@ body {
 .menu-background-second {
   background-color: rgba(233, 150, 122, 0.5);
   padding: 15px;
-  border-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
 }
 
 .menu__title {
