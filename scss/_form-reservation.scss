@@ -35,3 +35,9 @@
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
 }
 
+.photo {
+	display: flex;
+	flex-direction: column;
+	font-size: 25px;
+
+}

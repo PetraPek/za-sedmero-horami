@@ -22,10 +22,11 @@ body {
 .menu {
 	font-weight: bold;
 	margin: 0 0 20px 20px;
+	font-size: 20px;
 
 &__item {
-	display: inline-block;
 	text-decoration: none;
+	margin-bottom: 15px;
 	}
 
 &__checkbox {
@@ -56,10 +57,76 @@ body {
 
 }
 
-.main-photo {
-	background-image: url(/images/Interior1\ -\ mini.jpg);
+.photo {	
+	background-image: url(/images/Interior1mini.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 70px 40px;
+	padding: 200px 60px;
+
+&__main-offer {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
 }
+
+&__link-menu {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	margin-left: -20px;
+}
+
+&__link-reservation {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	margin-left: -20px;
+}
+
+}
+
+
+/*
+
+@media screen and (min-width: 1100px) {
+
+body {
+	width: 1300px;
+	margin: auto;
+	display: block;
+	padding: 0;
+}
+
+.header-pc-version {
+	margin: auto;
+	font-size: 50px;
+	display: flex;
+}
+
+.logo-white {
+	width: 400px;
+}
+
+.menu {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.main-photo {
+	background-image: url(/images/Interior1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 500px;
+}
+
+
+
+
+	
+}
+
+*/
