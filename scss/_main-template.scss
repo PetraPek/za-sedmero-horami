@@ -14,9 +14,15 @@ body {
 	font-size: 15px;
 }
 
+.header-phone {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px 0 0 360px;
+}
+
 .logo-white {
-	width: 200px;
-	margin: 0 0 0 150px;
+	width: 250px;
+	margin: 0 0 0 130px;
 }
 
 .menu {
@@ -57,8 +63,13 @@ body {
 
 }
 
+a:visited {
+	text-decoration: underline;
+	color: black;
+}
+
 .photo {	
-	background-image: url(/images/Interior1mini.jpg);
+	background-image: url(/images/Interior11.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -75,7 +86,9 @@ body {
 	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	margin-left: -20px;
+	margin: 20px 310px 10px -20px;
+	padding: 5px;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
 
 &__link-reservation {
@@ -83,13 +96,15 @@ body {
 	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	margin-left: -20px;
+	margin: 10px 150px 10px -20px;
+	padding: 5px;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
 
 }
 
 
-/*
+
 
 @media screen and (min-width: 1100px) {
 
@@ -100,27 +115,98 @@ body {
 	padding: 0;
 }
 
-.header-pc-version {
-	margin: auto;
-	font-size: 50px;
-	display: flex;
+.header-phone {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px 0 0 1130px;
 }
 
 .logo-white {
-	width: 400px;
+	width: 300px;
+}
+
+.header-pc-version {
+	padding: 30px 0 30px 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 .menu {
+	font-weight: bold;
+	margin: 0 0 20px 20px;
+	font-size: 20px;
+
+&__toggler {
+		display: none;
+	}
+	&__list {
+		display: inline-block;
+		text-decoration: none;
+	}
+
+}
+
+
+
+/*
+
+
+
+.menu li {
 	display: inline-block;
 	text-decoration: none;
 }
 
-.main-photo {
+.menu a {
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.photo {
 	background-image: url(/images/Interior1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 500px;
+	padding: 350px;
+
+&__link-menu {
+	font-size: 50px;
+	margin-left: -300px;
+}
+	
+&__link-reservation {
+	font-size: 50px;
+	margin-left: -300px;
+}
 }
 
 
@@ -129,4 +215,3 @@ body {
 	
 }
 
-*/

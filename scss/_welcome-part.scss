@@ -21,22 +21,28 @@
         margin: 0 0 30px 0;
     }
 
-&__reservation {
-        border: 5px solid colors.$color-button;
-        border-radius: 10px;
-        background-color: colors.$color-button;
-        text-decoration: none;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bold;
-        font-size: 18px;
-        color: black;
-        padding: 10px;
+}
+
+@media screen and (min-width: 1100px) {
+
+.welcome {
+
+&__title {
+        font-size: 70px;
+        margin: 20px 0 20px 0;
+    }
+
+&__name {
+        font-size: 90px;
+    }
+
+&__offer {
+        font-size: 40px;
     }
 
 }
 
-
+}
 
 
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   padding: 0;
   line-height: 1.5;
@@ -11,9 +12,15 @@ body {
   font-size: 15px;
 }
 
+.header-phone {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0 0 360px;
+}
+
 .logo-white {
-  width: 200px;
-  margin: 0 0 0 150px;
+  width: 250px;
+  margin: 0 0 0 130px;
 }
 
 .menu {
@@ -47,8 +54,13 @@ body {
   display: block;
 }
 
+a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
 .photo {
-  background-image: url(/images/Interior1mini.jpg);
+  background-image: url(/images/Interior11.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,57 +76,91 @@ body {
   font-size: 30px;
   color: black;
   font-weight: bold;
-  margin-left: -20px;
+  margin: 20px 310px 10px -20px;
+  padding: 5px;
+  background-color: rgba(233, 150, 122, 0.7);
 }
 .photo__link-reservation {
   text-decoration: none;
   font-size: 30px;
   color: black;
   font-weight: bold;
-  margin-left: -20px;
+  margin: 10px 150px 10px -20px;
+  padding: 5px;
+  background-color: rgba(233, 150, 122, 0.7);
 }
-
-/*
 
 @media screen and (min-width: 1100px) {
+  body {
+    width: 1300px;
+    margin: auto;
+    display: block;
+    padding: 0;
+  }
 
-body {
-	width: 1300px;
-	margin: auto;
-	display: block;
-	padding: 0;
+  .header-phone {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0 0 1130px;
+  }
+
+  .logo-white {
+    width: 300px;
+  }
+
+  .header-pc-version {
+    padding: 30px 0 30px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    font-weight: bold;
+    margin: 0 0 20px 20px;
+    font-size: 20px;
+  }
+  .menu__toggler {
+    display: none;
+  }
+  .menu__list {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  /*
+
+
+
+  .menu li {
+  	display: inline-block;
+  	text-decoration: none;
+  }
+
+  .menu a {
+  	color: #242424;
+  	text-decoration: none;
+  	padding: 10px 15px;
+  }
+
+
+  */
+  .photo {
+    background-image: url(/images/Interior1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 350px;
+  }
+  .photo__link-menu {
+    font-size: 50px;
+    margin-left: -300px;
+  }
+  .photo__link-reservation {
+    font-size: 50px;
+    margin-left: -300px;
+  }
 }
-
-.header-pc-version {
-	margin: auto;
-	font-size: 50px;
-	display: flex;
-}
-
-.logo-white {
-	width: 400px;
-}
-
-.menu {
-	display: inline-block;
-	text-decoration: none;
-}
-
-.main-photo {
-	background-image: url(/images/Interior1.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	padding: 500px;
-}
-
-
-
-
-
-}
-
-*/
 .welcome {
   font-family: "Cormorant SC", serif;
   text-align: center;
@@ -132,19 +178,19 @@ body {
   font-size: 20px;
   margin: 0 0 30px 0;
 }
-.welcome__reservation {
-  border: 5px solid #ECD9D9;
-  border-radius: 10px;
-  background-color: #ECD9D9;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: black;
-  padding: 10px;
-}
 
+@media screen and (min-width: 1100px) {
+  .welcome__title {
+    font-size: 70px;
+    margin: 20px 0 20px 0;
+  }
+  .welcome__name {
+    font-size: 90px;
+  }
+  .welcome__offer {
+    font-size: 40px;
+  }
+}
 .box1 {
   background-color: rgba(233, 150, 122, 0.2);
   margin: 30px 0 20px 0;
@@ -161,6 +207,21 @@ body {
   padding: 10px 50px 10px 50px;
 }
 
+@media screen and (min-width: 1100px) {
+  .box1 {
+    margin: 0;
+    padding: 50px;
+  }
+
+  .presented__title {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .presented__description {
+    font-size: 20px;
+  }
+}
 .event {
   max-width: 500px;
 }
@@ -168,12 +229,12 @@ body {
   text-align: center;
 }
 .event__prosecco {
-  background-image: url(/images/1Prosecco.jpg);
+  background-image: url(/images/Prosecco.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 20px;
-  margin: 0 70px 20px 70px;
+  margin: 0 30px 20px 30px;
   border-radius: 5px;
 }
 .event__prosecco-name, .event__prosecco-date {
@@ -184,18 +245,18 @@ body {
   text-align: center;
   color: black;
   margin: 0;
-  background-color: rgba(233, 150, 122, 0.2);
+  background-color: rgba(233, 150, 122, 0.7);
 }
 .event__prosecco-date {
   padding-bottom: 10px;
 }
 .event__coffee {
-  background-image: url(/images/Coffee44.jpg);
+  background-image: url(/images/Coffee4.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 20px;
-  margin: 0 70px 0 70px;
+  margin: 0 30px 0 30px;
   border-radius: 5px;
 }
 .event__coffee-name, .event__coffee-date {
@@ -206,17 +267,94 @@ body {
   text-align: center;
   color: black;
   margin: 0;
-  background-color: rgba(233, 150, 122, 0.2);
+  background-color: rgba(233, 150, 122, 0.7);
 }
 .event__coffee-date {
   padding-bottom: 10px;
 }
+.event__food {
+  background-image: url(/images/chléb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin: 20px 30px 20px 30px;
+  border-radius: 5px;
+}
+.event__food-name, .event__food-date {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  background-color: rgba(233, 150, 122, 0.7);
+}
+.event__food-date {
+  padding-bottom: 10px;
+}
+.event__birthday {
+  background-image: url(/images/Drink.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin: 20px 30px 20px 30px;
+  border-radius: 5px;
+}
+.event__birthday-name, .event__birthday-date {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  background-color: rgba(233, 150, 122, 0.7);
+}
+.event__birthday-date {
+  padding-bottom: 10px;
+}
 
 .prosecco-link,
-.coffee-link {
+.coffee-link,
+.food-link,
+.birthday-link {
   text-decoration: none;
 }
 
+@media screen and (min-width: 1100px) {
+  .event {
+    max-width: 1300px;
+  }
+  .event__flex-box {
+    display: flex;
+  }
+  .event__title {
+    font-size: 50px;
+  }
+  .event__prosecco {
+    padding: 90px 30px 90px 30px;
+    margin: 0 30px 20px 30px;
+  }
+  .event__prosecco-name, .event__prosecco-date {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+  }
+  .event__coffee {
+    padding: 90px 30px 90px 30px;
+    margin: 0 30px 20px 30px;
+  }
+  .event__coffee-name, .event__coffee-date {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+  }
+}
 .contact {
   background-color: rgba(233, 150, 122, 0.2);
   margin-bottom: 20px;
@@ -224,25 +362,28 @@ body {
 .contact__title {
   font-size: 18px;
   padding: 15px 0 0 0;
-  margin-left: 30px;
+  text-align: center;
 }
 .contact__address {
-  margin: 0 0 0 30px;
+  text-align: center;
+  margin: 0;
   font-size: 13px;
 }
 .contact__email {
-  margin: 10px 0 0 30px;
+  text-align: center;
+  margin: 10px 0 0 0;
   font-size: 13px;
   text-decoration: none;
 }
 .contact__phone {
-  margin: 10px 0 0 30px;
+  text-align: center;
+  margin: 10px 0 0 0;
   font-size: 13px;
 }
 
 .instagram {
   width: 20px;
-  margin: 20px 0 10px 30px;
+  margin: 20px 0 10px 230px;
 }
 
 .facebook {
@@ -255,12 +396,12 @@ body {
 }
 .accessories__bag {
   border-radius: 5px;
-  margin-right: 40px;
+  margin: 0 40px 0 0;
   width: 250px;
 }
 .accessories__title {
   text-align: left;
-  margin-top: 0;
+  margin: 0;
 }
 .accessories__price {
   text-align: left;
@@ -281,6 +422,15 @@ body {
 .accessories__offer-desc {
   margin-top: 160px;
   font-size: 15px;
+}
+.accessories__tin {
+  display: none;
+}
+.accessories__tin-title {
+  display: none;
+}
+.accessories__tin-price {
+  display: none;
 }
 
 .offer {
@@ -344,16 +494,55 @@ body {
   padding: 10px;
 }
 
-.opening {
-  margin-left: 30px;
-}
-.opening__description {
-  font-weight: bold;
-}
-.opening__date {
+.opening1 {
+  display: flex;
   margin: 0;
 }
+.opening1__photo-interior {
+  width: 250px;
+  padding: 0;
+}
 
+.opening {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: rgba(233, 150, 122, 0.2);
+}
+.opening__title {
+  margin: 10px 0 0 20px;
+}
+.opening__description {
+  margin: 0 0 10px 20px;
+}
+.opening__date {
+  margin: 0 0 0 20px;
+}
+
+@media screen and (min-width: 1100px) {
+  .opening1 {
+    margin: 30px 0 0 0;
+  }
+  .opening1__photo-interior {
+    width: 650px;
+  }
+
+  .opening {
+    width: 650px;
+  }
+  .opening__title {
+    font-size: 40px;
+    margin: 80px 0 0 40px;
+  }
+  .opening__description {
+    font-size: 30px;
+    margin: 0 0 20px 40px;
+  }
+  .opening__date {
+    font-size: 30px;
+    margin: 0px 0 0 40px;
+  }
+}
 .footer {
   color: black;
   background-color: rgba(233, 150, 122, 0.2);
@@ -401,6 +590,23 @@ body {
   margin: 0;
 }
 
+@media screen and (min-width: 1100px) {
+  .footer {
+    font-size: 25px;
+  }
+  .footer__logo-white {
+    width: 250px;
+    margin: 20px 30px 0px 90px;
+  }
+  .footer__contact {
+    font-size: 20px;
+    margin: 70px 30px 0px 200px;
+  }
+  .footer__hours {
+    font-size: 20px;
+    margin: 100px 30px 0px 280px;
+  }
+}
 .offer__title {
   text-align: center;
   color: white;
