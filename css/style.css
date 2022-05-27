@@ -567,6 +567,42 @@ a:visited {
   font-size: 25px;
 }
 
+.gdpr {
+  margin: 90px;
+}
+
+@media screen and (min-width: 1100px) {
+  .reservation-title {
+    font-size: 60px;
+  }
+
+  .form-field {
+    margin: 10px 60px 10px 150px;
+  }
+
+  .form-field label {
+    font-size: 30px;
+  }
+
+  .confirm-reservation {
+    margin: 20px 190px 20px 150px;
+  }
+
+  .reguired {
+    color: red;
+  }
+
+  .reservation {
+    padding: 80px;
+    margin: 30px 20px 30px 20px;
+    border-radius: 5px;
+    background-color: rgba(233, 150, 122, 0.2);
+  }
+
+  .gdpr {
+    margin: 30px;
+  }
+}
 .reservation__thanks,
 .reservation__mail {
   text-align: center;
@@ -583,6 +619,26 @@ a:visited {
   padding: 10px;
 }
 
+@media screen and (min-width: 1100px) {
+  .reservation {
+    margin: 120px;
+  }
+
+  .reservation-title {
+    font-size: 60px;
+  }
+
+  .reservation__thanks,
+.reservation__mail {
+    font-size: 40px;
+  }
+
+  .reservation__back {
+    margin: 20px 90px 0 350px;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
 .opening1 {
   display: flex;
   margin: 0;
@@ -770,6 +826,13 @@ a:visited {
   grid-row: span 1;
 }
 
+.menu-phone {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 10px 0 380px;
+  color: white;
+}
+
 .logo-orange {
   width: 140px;
   border-radius: 90%;
@@ -791,7 +854,7 @@ a:visited {
 }
 
 .menu-background-second {
-  background-color: rgba(233, 150, 122, 0.5);
+  background-color: rgba(233, 150, 122, 0.3);
   padding: 15px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
@@ -802,6 +865,61 @@ a:visited {
   font-size: 30px;
 }
 
+@media screen and (min-width: 1100px) {
+  .menu-background-main {
+    position: absolute;
+  }
+
+  .menu-phone {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 30px 0 1100px;
+  }
+
+  .logo-orange {
+    width: 300px;
+    margin: 50px 0 0 30px;
+  }
+
+  .menu-menu {
+    font-weight: bold;
+    margin: 110px 30px 20px 0;
+    font-size: 30px;
+  }
+  .menu-menu__toggler {
+    display: none;
+  }
+  .menu-menu__checkbox {
+    display: none;
+  }
+  .menu-menu__list {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .menu li {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .menu a {
+    color: #242424;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+    color: rgba(233, 150, 122, 0.9);
+  }
+
+  .menu-pc-version {
+    padding: 0 0 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .events__main-title {
   text-align: center;
   color: white;
@@ -938,6 +1056,82 @@ a:visited {
   margin: 5px 120px 5px 0;
 }
 
+@media screen and (min-width: 1100px) {
+  .gifts-title {
+    font-size: 50px;
+  }
+
+  .gift-box1 {
+    display: flex;
+  }
+
+  .gift1 {
+    margin: 5px 30px 5px 30px;
+  }
+  .gift1__bag {
+    width: 250px;
+    padding: 0 0px 90px 0px;
+    margin-right: 30px;
+  }
+  .gift1__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+  }
+  .gift1__price {
+    font-size: 30px;
+  }
+  .gift1__description {
+    font-size: 20px;
+  }
+
+  .gift2 {
+    flex-direction: row;
+    margin: 20px 30px 5px 30px;
+  }
+  .gift2__bag {
+    width: 500px;
+    padding: 0 0px 90px 0px;
+    margin-right: 30px;
+  }
+  .gift2__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+  }
+  .gift2__price {
+    font-size: 30px;
+  }
+  .gift2__description {
+    font-size: 20px;
+  }
+
+  .gift-box2 {
+    display: flex;
+  }
+
+  .gift3 {
+    margin: 5px 30px 5px 30px;
+  }
+  .gift3__bag {
+    width: 300px;
+    padding: 0 0px 110px 0px;
+    margin-right: 30px;
+  }
+  .gift3__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+  }
+  .gift3__price {
+    font-size: 30px;
+  }
+  .gift3__description {
+    font-size: 20px;
+  }
+
+  .gift4 {
+    flex-direction: row;
+    margin: 5px 30px 5px 30px;
+  }
+}
 html {
   box-sizing: border-box;
 }

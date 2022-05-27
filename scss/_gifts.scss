@@ -128,3 +128,128 @@
         margin: 5px 120px 5px 0;
     }
 }
+
+@media screen and (min-width: 1100px) {
+
+.gifts-title {
+    font-size: 50px;
+}
+
+.gift-box1 {
+    display: flex;
+}
+
+.gift1 {
+    margin: 5px 30px 5px 30px;
+
+&__bag {
+    width: 250px;
+    padding: 0 0px 90px 0px;
+    margin-right: 30px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+    }
+    
+&__price {
+    font-size: 30px;
+    }
+    
+&__description {
+    font-size: 20px;
+}
+
+}
+
+.gift2 {
+    flex-direction: row;
+    margin: 20px 30px 5px 30px;
+
+&__bag {
+    width: 500px;
+    padding: 0 0px 90px 0px;
+    margin-right: 30px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+    }
+    
+&__price {
+    font-size: 30px;
+    }
+    
+&__description {
+    font-size: 20px;
+}
+
+}
+
+.gift-box2 {
+    display: flex;
+}
+
+.gift3 {
+    margin: 5px 30px 5px 30px;
+
+&__bag {
+    width: 300px;
+    padding: 0 0px 110px 0px;
+    margin-right: 30px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 0;
+    font-size: 30px;
+    }
+    
+&__price {
+    font-size: 30px;
+    }
+    
+&__description {
+    font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gift4 {
+    flex-direction: row;
+    margin: 5px 30px 5px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
