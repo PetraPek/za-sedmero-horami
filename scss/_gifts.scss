@@ -25,11 +25,11 @@
 }
     
 &__line {
-    margin: 5px 100px 5px 5px;
+    margin: 5px 150px 5px 5px;
 }
 
 &__description {
-    margin: 0 0 0 5px;
+    margin: 0 10px 0 5px;
 }
 
 }
@@ -37,7 +37,7 @@
 .gift2 {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 10px 5px 10px;
+    margin: 10px 30px 5px 10px;
 
 &__hoodie {
     width: 200px;
@@ -46,20 +46,20 @@
 }
     
 &__title {
-    margin: 10px 0 5px 0;
+    margin: 10px 0 0 20px;
     font-size: 20px;
 }
     
 &__price {
-    margin: 0;
+    margin: 0 0 0 20px;
 }
     
 &__line {
-    margin: 5px 120px 5px 0;
+    margin: 5px 90px 5px 20px;
 }
 
 &__description {
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 }
@@ -85,11 +85,11 @@
 }
     
 &__line {
-    margin: 5px 120px 5px 0;
+    margin: 5px 150px 5px 5px;
 }
 
 &__description {
-    margin: 0;
+    margin: 0 10px 0 5px;
 }
 
 }
@@ -97,7 +97,7 @@
 .gift4 {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 10px 5px 10px;
+    margin: 10px 30px 5px 10px;
 
 &__mug {
     width: 200px;
@@ -106,20 +106,20 @@
 }
     
 &__title {
-    margin: 0 0 5px 0;
+    margin: 10px 0 0 20px;
     font-size: 20px;
 }
     
 &__price {
-    margin: 0;
+    margin: 0 0 0 20px;
 }
     
 &__line {
-    margin: 5px 100px 5px 0;
+    margin: 5px 90px 5px 20px;
 }
 
 &__description {
-margin: 0;
+    margin: 0 0 0 20px;
 }
 
 }
@@ -145,11 +145,11 @@ margin: 0;
 }
     
 &__line {
-    margin: 5px 120px 5px 0;
+    margin: 5px 150px 5px 5px;
 }
 
 &__description {
-    margin: 0;
+    margin: 0 10px 0 5px;
 }
 
 }

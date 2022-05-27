@@ -2,7 +2,7 @@
 body {
   padding: 0;
   line-height: 1.5;
-  width: 70%;
+  width: 500px;
   margin: auto;
   font-family: "Cormorant SC", serif;
 }
@@ -15,12 +15,12 @@ body {
 .header-phone {
   font-weight: bold;
   font-size: 20px;
-  margin: 10px 0 0 290px;
+  margin: 10px 0 0 370px;
 }
 
 .logo-white {
   width: 170px;
-  margin: 0 0 0 120px;
+  margin: 0 0 0 170px;
 }
 
 .menu {
@@ -76,7 +76,7 @@ a:visited {
   font-size: 30px;
   color: black;
   font-weight: bold;
-  margin: 20px 310px 10px -20px;
+  margin: 20px 380px 10px -20px;
   padding: 8px;
   background-color: rgba(233, 150, 122, 0.7);
 }
@@ -85,7 +85,7 @@ a:visited {
   font-size: 30px;
   color: black;
   font-weight: bold;
-  margin: 10px 150px 10px -20px;
+  margin: 10px 210px 10px -20px;
   padding: 8px;
   background-color: rgba(233, 150, 122, 0.7);
 }
@@ -400,7 +400,7 @@ a:visited {
 
 .instagram {
   width: 20px;
-  margin: 20px 0 10px 190px;
+  margin: 20px 0 10px 225px;
 }
 
 .facebook {
@@ -447,7 +447,7 @@ a:visited {
 .accessories__bag {
   border-radius: 5px;
   margin: 0 40px 0 0;
-  width: 150px;
+  width: 200px;
 }
 .accessories__title {
   text-align: left;
@@ -470,7 +470,7 @@ a:visited {
   margin-bottom: 20px;
 }
 .accessories__offer-desc {
-  margin-top: 90px;
+  margin-top: 120px;
   font-size: 15px;
 }
 .accessories__tin {
@@ -540,7 +540,7 @@ a:visited {
 }
 
 .confirm-reservation {
-  margin: 20px 50px 10px 150px;
+  margin: 20px 50px 30px 190px;
 }
 
 .reguired {
@@ -614,7 +614,7 @@ a:visited {
 }
 
 .reservation__back {
-  margin: 20px 50px 0 60px;
+  margin: 20px 50px 0 90px;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
@@ -651,7 +651,7 @@ a:visited {
   margin: 0;
 }
 .opening1__photo-interior {
-  width: 200px;
+  width: 250px;
   padding: 0;
 }
 
@@ -712,11 +712,11 @@ a:visited {
 }
 .footer__logo-white {
   width: 100px;
-  margin: 10px 30px 0px 20px;
+  margin: 10px 30px 0px 40px;
 }
 .footer__contact {
   font-size: 8px;
-  margin: 30px 30px 0px 30px;
+  margin: 30px 30px 0px 50px;
 }
 .footer__contact-address-street {
   margin: 0;
@@ -839,14 +839,14 @@ a:visited {
 .menu-phone {
   font-weight: bold;
   font-size: 16px;
-  margin: 0 10px 0 300px;
+  margin: 0 10px 0 380px;
   padding: 5px 5px 0 0;
 }
 
 .logo-orange {
-  width: 140px;
+  width: 160px;
   border-radius: 90%;
-  margin: 20px 180px 0 150px;
+  margin: 20px 180px 0 170px;
 }
 
 .menu-background-main {
@@ -1005,16 +1005,16 @@ a:visited {
   margin: 0 0 0 5px;
 }
 .gift1__line {
-  margin: 5px 100px 5px 5px;
+  margin: 5px 150px 5px 5px;
 }
 .gift1__description {
-  margin: 0 0 0 5px;
+  margin: 0 10px 0 5px;
 }
 
 .gift2 {
   display: flex;
   flex-direction: row-reverse;
-  margin: 0 10px 5px 10px;
+  margin: 10px 30px 5px 10px;
 }
 .gift2__hoodie {
   width: 200px;
@@ -1022,17 +1022,17 @@ a:visited {
   margin-right: 10px;
 }
 .gift2__title {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 0 20px;
   font-size: 20px;
 }
 .gift2__price {
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 .gift2__line {
-  margin: 5px 120px 5px 0;
+  margin: 5px 90px 5px 20px;
 }
 .gift2__description {
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 
 .gift3 {
@@ -1052,16 +1052,16 @@ a:visited {
   margin: 0 0 0 5px;
 }
 .gift3__line {
-  margin: 5px 120px 5px 0;
+  margin: 5px 150px 5px 5px;
 }
 .gift3__description {
-  margin: 0;
+  margin: 0 10px 0 5px;
 }
 
 .gift4 {
   display: flex;
   flex-direction: row-reverse;
-  margin: 0 10px 5px 10px;
+  margin: 10px 30px 5px 10px;
 }
 .gift4__mug {
   width: 200px;
@@ -1069,17 +1069,17 @@ a:visited {
   margin-right: 10px;
 }
 .gift4__title {
-  margin: 0 0 5px 0;
+  margin: 10px 0 0 20px;
   font-size: 20px;
 }
 .gift4__price {
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 .gift4__line {
-  margin: 5px 100px 5px 0;
+  margin: 5px 90px 5px 20px;
 }
 .gift4__description {
-  margin: 0;
+  margin: 0 0 0 20px;
 }
 
 .gift5 {
@@ -1099,10 +1099,10 @@ a:visited {
   margin: 0 0 0 5px;
 }
 .gift5__line {
-  margin: 5px 120px 5px 0;
+  margin: 5px 150px 5px 5px;
 }
 .gift5__description {
-  margin: 0;
+  margin: 0 10px 0 5px;
 }
 
 @media screen and (min-width: 1100px) {

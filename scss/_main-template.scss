@@ -4,7 +4,7 @@
 body {
     padding: 0;
     line-height: 1.5;
-    width: 70%;
+    width: 500px;
    	margin: auto;
 	font-family: fonts.$default-font;
 }
@@ -17,12 +17,12 @@ body {
 .header-phone {
 	font-weight: bold;
 	font-size: 20px;
-	margin: 10px 0 0 290px;
+	margin: 10px 0 0 370px;
 }
 
 .logo-white {
 	width: 170px;
-	margin: 0 0 0 120px;
+	margin: 0 0 0 170px;
 }
 
 .menu {
@@ -86,7 +86,7 @@ a:visited {
 	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	margin: 20px 310px 10px -20px;
+	margin: 20px 380px 10px -20px;
 	padding: 8px;
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
@@ -96,7 +96,7 @@ a:visited {
 	font-size: 30px;
 	color: black;
 	font-weight: bold;
-	margin: 10px 150px 10px -20px;
+	margin: 10px 210px 10px -20px;
 	padding: 8px;
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
