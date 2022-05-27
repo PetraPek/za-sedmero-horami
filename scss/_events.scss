@@ -2,7 +2,7 @@
 @use "fonts";
 
 .event {
-	max-width: 500px;
+max-width: 500px;
 
 &__title {
         text-align: center; 
@@ -127,6 +127,8 @@
 
 &__flex-box {
     display: flex;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 &__title {
@@ -134,33 +136,60 @@
     }
 
 &__prosecco {
-        padding: 90px 30px 90px 30px;
-        margin: 0 30px 20px 30px;
-    }
+    padding: 40px 20px 40px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+}
 
 &__prosecco-name,
 &__prosecco-date {
-        font-size: 20px;
-        padding-top: 30px;
-        margin: 0 20px 0 20px; 
-        text-align: center;
-    }
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 20px 0 20px; 
+}
     
 &__coffee {
-    padding: 90px 30px 90px 30px;
-    margin: 0 30px 20px 30px;
-    }
+    padding: 40px 20px 40px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+}
 
 &__coffee-name,
 &__coffee-date {
-    font-size: 20px;
-    padding-top: 30px;
-    margin: 0 20px 0 20px; 
-    text-align: center;
-    }
+    font-size: 25px;
+    padding: 15px;
+    margin: 0 10px 0 10px;  
+}
     
+&__food {
+    padding: 40px 20px 40px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+}
 
-}    
+&__food-name,
+&__food-date {
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 20px 0 20px; 
+}
+
+&__birthday {
+    padding: 40px 20px 40px 20px;
+    margin: 10px 20px 10px 20px;
+    width: 300px;
+}
+
+&__birthday-name,
+&__birthday-date {
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 20px 0 20px;  
+        
+}
+
+
+}
 
 
 

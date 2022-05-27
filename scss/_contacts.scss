@@ -40,3 +40,45 @@
 	width: 18px;
 	margin-bottom: 10px;
 }
+
+@media screen and (min-width: 1100px) {
+
+.contact {
+
+&__title {
+    font-size: 40px;
+    margin: 30px 0 0 0;
+    }
+    
+&__address {
+	font-size: 30px;
+    }
+
+&__email {
+	font-size: 25px;
+	text-decoration: none;
+}
+
+&__phone {
+	font-size: 25px;
+}
+}
+
+.instagram {
+	width: 60px;
+	margin: 20px 0 10px 590px;
+}
+
+.facebook {
+	width: 58px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+}
+
