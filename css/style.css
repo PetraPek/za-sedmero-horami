@@ -2,7 +2,7 @@
 body {
   padding: 0;
   line-height: 1.5;
-  width: 500px;
+  width: 70%;
   margin: auto;
   font-family: "Cormorant SC", serif;
 }
@@ -15,12 +15,12 @@ body {
 .header-phone {
   font-weight: bold;
   font-size: 20px;
-  margin: 10px 0 0 360px;
+  margin: 10px 0 0 290px;
 }
 
 .logo-white {
-  width: 250px;
-  margin: 0 0 0 130px;
+  width: 170px;
+  margin: 0 0 0 120px;
 }
 
 .menu {
@@ -64,7 +64,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 200px 60px;
+  padding: 250px 20px;
 }
 .photo__main-offer {
   display: flex;
@@ -77,7 +77,7 @@ a:visited {
   color: black;
   font-weight: bold;
   margin: 20px 310px 10px -20px;
-  padding: 5px;
+  padding: 8px;
   background-color: rgba(233, 150, 122, 0.7);
 }
 .photo__link-reservation {
@@ -86,13 +86,13 @@ a:visited {
   color: black;
   font-weight: bold;
   margin: 10px 150px 10px -20px;
-  padding: 5px;
+  padding: 8px;
   background-color: rgba(233, 150, 122, 0.7);
 }
 
 @media screen and (min-width: 1100px) {
   body {
-    width: 1300px;
+    width: 100%;
     margin: auto;
     display: block;
     padding: 0;
@@ -220,9 +220,6 @@ a:visited {
     font-size: 20px;
   }
 }
-.event {
-  max-width: 500px;
-}
 .event__title {
   text-align: center;
 }
@@ -231,7 +228,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 10px;
   margin: 0 30px 20px 30px;
   border-radius: 5px;
 }
@@ -253,7 +250,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 10px;
   margin: 0 30px 0 30px;
   border-radius: 5px;
 }
@@ -275,7 +272,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 10px;
   margin: 20px 30px 20px 30px;
   border-radius: 5px;
 }
@@ -297,7 +294,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px;
+  padding: 10px;
   margin: 20px 30px 20px 30px;
   border-radius: 5px;
 }
@@ -403,7 +400,7 @@ a:visited {
 
 .instagram {
   width: 20px;
-  margin: 20px 0 10px 230px;
+  margin: 20px 0 10px 190px;
 }
 
 .facebook {
@@ -437,13 +434,20 @@ a:visited {
     margin-bottom: 10px;
   }
 }
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 10px 30px 10px 30px;
+}
+
 .accessories__gifts {
   text-align: center;
 }
 .accessories__bag {
   border-radius: 5px;
   margin: 0 40px 0 0;
-  width: 250px;
+  width: 150px;
 }
 .accessories__title {
   text-align: left;
@@ -454,19 +458,19 @@ a:visited {
   margin-top: 0;
 }
 .accessories__offer {
-  border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
+  background-image: url(/images/0tin_mug.jpg);
+  border-radius: 5px;
   color: white;
   padding: 10px;
   margin-bottom: 20px;
-  background-image: url(/images/0tin_mug.jpg);
 }
 .accessories__offer-desc {
-  margin-top: 160px;
+  margin-top: 90px;
   font-size: 15px;
 }
 .accessories__tin {
@@ -477,13 +481,6 @@ a:visited {
 }
 .accessories__tin-price {
   display: none;
-}
-
-.offer {
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  margin: 10px 30px 10px 30px;
 }
 
 @media screen and (min-width: 1100px) {
@@ -543,7 +540,7 @@ a:visited {
 }
 
 .confirm-reservation {
-  margin: 20px 190px 20px 190px;
+  margin: 20px 50px 10px 150px;
 }
 
 .reguired {
@@ -568,41 +565,48 @@ a:visited {
 }
 
 .gdpr {
-  margin: 90px;
+  margin-left: 30px;
 }
 
+/*
 @media screen and (min-width: 1100px) {
-  .reservation-title {
-    font-size: 60px;
-  }
 
-  .form-field {
-    margin: 10px 60px 10px 150px;
-  }
-
-  .form-field label {
-    font-size: 30px;
-  }
-
-  .confirm-reservation {
-    margin: 20px 190px 20px 150px;
-  }
-
-  .reguired {
-    color: red;
-  }
-
-  .reservation {
-    padding: 80px;
-    margin: 30px 20px 30px 20px;
-    border-radius: 5px;
-    background-color: rgba(233, 150, 122, 0.2);
-  }
-
-  .gdpr {
-    margin: 30px;
-  }
+.reservation-title {
+	font-size: 60px;
 }
+
+.form-field {
+	margin: 10px 60px 10px 150px;
+}
+
+.form-field label {
+	font-size: 30px;
+}
+
+.confirm-reservation {
+	margin: 20px 190px 20px 150px;
+}
+
+.reguired {
+	color: red;
+}
+
+.reservation {
+	padding: 80px;
+	margin: 30px 20px 30px 20px;
+	border-radius: 5px;
+	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+}
+
+.gdpr {
+	margin: 30px;
+}
+
+
+
+
+
+}*/
 .reservation__thanks,
 .reservation__mail {
   text-align: center;
@@ -610,7 +614,7 @@ a:visited {
 }
 
 .reservation__back {
-  margin: 20px 90px 0 90px;
+  margin: 20px 50px 0 60px;
   text-decoration: none;
   font-size: 15px;
   font-weight: bold;
@@ -619,32 +623,35 @@ a:visited {
   padding: 10px;
 }
 
+/*
 @media screen and (min-width: 1100px) {
-  .reservation {
-    margin: 120px;
-  }
 
-  .reservation-title {
-    font-size: 60px;
-  }
-
-  .reservation__thanks,
-.reservation__mail {
-    font-size: 40px;
-  }
-
-  .reservation__back {
-    margin: 20px 90px 0 350px;
-    font-size: 30px;
-    padding: 10px;
-  }
+.reservation {
+	margin: 120px;
 }
+
+.reservation-title {
+	font-size: 60px;
+}
+
+.reservation__thanks,
+.reservation__mail {
+	font-size: 40px;
+}
+
+.reservation__back {
+	margin: 20px 90px 0 350px;
+	font-size: 30px;
+	padding: 10px;
+}
+
+}*/
 .opening1 {
   display: flex;
   margin: 0;
 }
 .opening1__photo-interior {
-  width: 250px;
+  width: 200px;
   padding: 0;
 }
 
@@ -662,6 +669,9 @@ a:visited {
 }
 .opening__date {
   margin: 0 0 0 20px;
+}
+.opening__date-date {
+  margin: 0 0 10px 20px;
 }
 
 @media screen and (min-width: 1100px) {
@@ -702,7 +712,7 @@ a:visited {
 }
 .footer__logo-white {
   width: 100px;
-  margin: 10px 30px 0px 60px;
+  margin: 10px 30px 0px 20px;
 }
 .footer__contact {
   font-size: 8px;
@@ -723,7 +733,7 @@ a:visited {
 }
 .footer__hours {
   font-size: 8px;
-  margin: 40px 30px 0px 30px;
+  margin: 40px 20px 0px 50px;
 }
 .footer__hours-open-week {
   margin: 0;
@@ -829,18 +839,18 @@ a:visited {
 .menu-phone {
   font-weight: bold;
   font-size: 16px;
-  margin: 20px 10px 0 380px;
-  color: white;
+  margin: 0 10px 0 300px;
+  padding: 5px 5px 0 0;
 }
 
 .logo-orange {
   width: 140px;
   border-radius: 90%;
-  margin: 20px 180px 0 180px;
+  margin: 20px 180px 0 150px;
 }
 
 .menu-background-main {
-  background-image: url(/images/cinnamon.back.jpg);
+  background-image: url(/images/Cinnamon\ Rolls.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -850,11 +860,16 @@ a:visited {
   color: white;
   font-weight: bold;
   margin: 0 0 20px 20px;
-  font-size: 16px;
+  font-size: 20px;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: black;
 }
 
 .menu-background-second {
-  background-color: rgba(233, 150, 122, 0.3);
+  background-color: rgba(233, 150, 122, 0.8);
   padding: 15px;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
@@ -865,89 +880,108 @@ a:visited {
   font-size: 30px;
 }
 
+/*
 @media screen and (min-width: 1100px) {
-  .menu-background-main {
-    position: absolute;
-  }
 
-  .menu-phone {
-    font-weight: bold;
-    font-size: 25px;
-    margin: 10px 30px 0 1100px;
-  }
 
-  .logo-orange {
-    width: 300px;
-    margin: 50px 0 0 30px;
-  }
 
-  .menu-menu {
-    font-weight: bold;
-    margin: 110px 30px 20px 0;
-    font-size: 30px;
-  }
-  .menu-menu__toggler {
-    display: none;
-  }
-  .menu-menu__checkbox {
-    display: none;
-  }
-  .menu-menu__list {
-    display: inline-block;
-    text-decoration: none;
-  }
-
-  .menu li {
-    display: inline-block;
-    text-decoration: none;
-  }
-
-  .menu a {
-    color: #242424;
-    text-decoration: none;
-    padding: 10px 15px;
-  }
-
-  .menu a:hover {
-    text-decoration: underline;
-    color: rgba(233, 150, 122, 0.9);
-  }
-
-  .menu-pc-version {
-    padding: 0 0 20px 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
+.menu-phone {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 10px 30px 0 1100px;
 }
+
+.logo-orange {
+	width: 300px;
+	margin: 50px 0 0 30px;
+}
+
+
+
+.menu-menu {
+	font-weight: bold;
+	margin: 110px 30px 20px 0;
+	font-size: 30px;
+
+&__toggler {
+	display: none;
+	}
+
+&__checkbox {
+	display: none;
+}
+
+&__list {
+	display: inline-block;
+	text-decoration: none;
+	}
+}
+
+.menu li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu a {
+	color: #242424;
+	text-decoration: none;
+	padding: 10px 15px;
+}
+
+.menu a:hover {
+	text-decoration: underline;
+	color: rgba($color: colors.$color-primary, $alpha: 0.9)
+	}
+
+.menu-pc-version {
+	padding: 0 0 20px 0;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+}*/
 .events__main-title {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
-.events__photo-prosecco, .events__photo-coffee {
-  width: 100%;
-  padding: 10px 50px 10px 50px;
-  border-radius: 5px;
-  opacity: 60%;
+.events__photo-prosecco, .events__photo-coffee, .events__photo-bread, .events__photo-drink {
+  display: none;
 }
-.events__title-prosecco, .events__title-coffee {
+.events__title-prosecco, .events__title-coffee, .events__title-bread, .events__title-drink {
   text-align: center;
   color: white;
   font-size: 20px;
   margin: 0;
 }
-.events__date-prosecco, .events__date-coffee {
+.events__date-prosecco, .events__date-coffee, .events__date-bread, .events__date-drink {
   text-align: center;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
 }
-.events__descriptions-prosecco, .events__descriptions-coffee {
+.events__descriptions-prosecco, .events__descriptions-coffee, .events__descriptions-bread, .events__descriptions-drink {
   text-align: center;
   padding: 20px;
   margin: 0;
   color: white;
+}
+
+.events-line1 {
+  margin: 0 30px 3px 30px;
+}
+
+.events-line2 {
+  margin: 0 50px 5px 50px;
 }
 
 .gifts-title {
@@ -956,31 +990,34 @@ a:visited {
 
 .gift1 {
   display: flex;
-  margin: 5px 30px 5px 30px;
+  margin: 5px 10px 5px 30px;
 }
 .gift1__bag {
-  width: 200px;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
 .gift1__title {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 5px;
   font-size: 20px;
 }
 .gift1__price {
-  margin: 0;
+  margin: 0 0 0 5px;
 }
 .gift1__line {
-  margin: 5px 120px 5px 0;
+  margin: 5px 100px 5px 5px;
+}
+.gift1__description {
+  margin: 0 0 0 5px;
 }
 
 .gift2 {
   display: flex;
   flex-direction: row-reverse;
-  margin: 5px 30px 5px 30px;
+  margin: 0 10px 5px 10px;
 }
 .gift2__hoodie {
-  width: 250px;
+  width: 200px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
@@ -994,66 +1031,78 @@ a:visited {
 .gift2__line {
   margin: 5px 120px 5px 0;
 }
+.gift2__description {
+  margin: 0;
+}
 
 .gift3 {
   display: flex;
-  margin: 5px 30px 5px 30px;
+  margin: 5px 10px 5px 30px;
 }
 .gift3__tshirt {
-  width: 200px;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
 .gift3__title {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 5px;
   font-size: 20px;
 }
 .gift3__price {
-  margin: 0;
+  margin: 0 0 0 5px;
 }
 .gift3__line {
   margin: 5px 120px 5px 0;
+}
+.gift3__description {
+  margin: 0;
 }
 
 .gift4 {
   display: flex;
   flex-direction: row-reverse;
-  margin: 5px 30px 5px 30px;
+  margin: 0 10px 5px 10px;
 }
 .gift4__mug {
-  width: 250px;
+  width: 200px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
 .gift4__title {
-  margin: 10px 0 5px 0;
+  margin: 0 0 5px 0;
   font-size: 20px;
 }
 .gift4__price {
   margin: 0;
 }
 .gift4__line {
-  margin: 5px 120px 5px 0;
+  margin: 5px 100px 5px 0;
+}
+.gift4__description {
+  margin: 0;
 }
 
 .gift5 {
   display: flex;
-  margin: 5px 30px 5px 30px;
+  margin: 5px 10px 5px 30px;
 }
 .gift5__tin-mug {
-  width: 200px;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
 .gift5__title {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px 5px;
   font-size: 20px;
 }
 .gift5__price {
-  margin: 0;
+  margin: 0 0 0 5px;
 }
 .gift5__line {
   margin: 5px 120px 5px 0;
+}
+.gift5__description {
+  margin: 0;
 }
 
 @media screen and (min-width: 1100px) {

@@ -4,8 +4,8 @@
 body {
     padding: 0;
     line-height: 1.5;
-    width:500px;
-    margin: auto;
+    width: 70%;
+   	margin: auto;
 	font-family: fonts.$default-font;
 }
 
@@ -17,12 +17,12 @@ body {
 .header-phone {
 	font-weight: bold;
 	font-size: 20px;
-	margin: 10px 0 0 360px;
+	margin: 10px 0 0 290px;
 }
 
 .logo-white {
-	width: 250px;
-	margin: 0 0 0 130px;
+	width: 170px;
+	margin: 0 0 0 120px;
 }
 
 .menu {
@@ -73,7 +73,7 @@ a:visited {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 200px 60px;
+	padding: 250px 20px;
 
 &__main-offer {
 	display: flex;
@@ -87,7 +87,7 @@ a:visited {
 	color: black;
 	font-weight: bold;
 	margin: 20px 310px 10px -20px;
-	padding: 5px;
+	padding: 8px;
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
 
@@ -97,7 +97,7 @@ a:visited {
 	color: black;
 	font-weight: bold;
 	margin: 10px 150px 10px -20px;
-	padding: 5px;
+	padding: 8px;
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.7);
 }
 }
@@ -106,7 +106,7 @@ a:visited {
 @media screen and (min-width: 1100px) {
 
 body {
-	width: 1300px;
+	width: 100%;
 	margin: auto;
 	display: block;
 	padding: 0;
