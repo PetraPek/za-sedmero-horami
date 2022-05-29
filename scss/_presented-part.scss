@@ -18,6 +18,48 @@
 	font-size: 20px;
     padding: 5px 50px 5px 50px;
 }
+
+.welcome {
+	font-family: fonts.$default-font;
+	text-align: center;
+
+&__title {
+        font-size: 30px;
+        margin: 10px 0 10px 0;
+    }
+
+&__name {
+        font-size: 60px;
+        font-family: fonts.$secondary-font;
+        margin: 0;
+    }
+
+&__offer {
+        font-size: 20px;
+        margin: 0 0 30px 0;
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+
+.box1 {
+	width: 900px;
+}
+
+.presented__title {
+	font-size: 50px;
+	margin: 10px 0 10px 0;
+}
+
+.presented__description {
+	font-size: 30px;
+}
+
+}
+
+
+
 /*
 @media screen and (min-width: 1100px) {
 

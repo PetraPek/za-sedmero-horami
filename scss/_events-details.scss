@@ -6,6 +6,7 @@
 &__main-title {
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
 }
     
 &__photo-prosecco,
@@ -55,6 +56,78 @@
 .events-line2 {
     margin: 0 50px 5px 50px;
 }
+
+@media screen and (min-width: 640px) {
+
+.events {
+
+&__main-title {
+    font-size: 50px;
+}
+    
+&__title-prosecco,
+&__title-coffee,
+&__title-bread,
+&__title-drink {
+    font-size: 40px;
+}
+    
+&__date-prosecco,
+&__date-coffee,
+&__date-bread,
+&__date-drink {
+    font-size: 30px;
+}
+    
+&__descriptions-prosecco,
+&__descriptions-coffee,
+&__descriptions-bread,
+&__descriptions-drink {
+    font-size: 25px;
+}
+
+}
+
+.events-line1 {
+    margin: 0 30px 10px 30px;
+}
+
+.events-line2 {
+    margin: 0 50px 8px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @media screen and (min-width: 1100px) {
 

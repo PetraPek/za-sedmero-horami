@@ -1,13 +1,14 @@
 @use "colors";
 @use "fonts";
 
+.offer-title {
+	text-align: center;
+	color:white;
+	font-size: 40px;
+}
+
 
 .offer {
-&__title {
-		text-align: center;
-		color:white;
-		font-size: 30px;
-	}
 	
 &__box {
 		display: flex;
@@ -96,6 +97,87 @@
 	grid-row: span 1;
 }
 }
+
+@media screen and (min-width: 640px) {
+
+.offer-title {
+	font-size: 50px;
+}
+
+.offer__meal {
+	font-size: 35px;
+}
+
+.offer__description,
+.offer__price {
+	font-size: 25px;
+}
+
+.offer__h5 {
+	font-size: 30px;
+}
+
+.offer__coffee-title,
+.offer__coffee-price {
+	font-size: 25px;
+}
+
+.offer__hot-title,
+.offer__hot-price {
+	font-size: 25px;
+}
+
+.offer__softd-title,
+.offer__softd-price {
+	font-size: 25px;
+}
+
+.offer__alcohol-title,
+.offer__alcohol-price {
+	font-size: 25px;
+}
+
+.gallery {
+
+&__grid {
+	gap: 5px;
+	margin: 90px;
+}
+
+&__item {
+	width: 200px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @media screen and (min-width: 1100px) {
 

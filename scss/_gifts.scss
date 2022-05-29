@@ -158,6 +158,175 @@
 }
 
 }
+
+@media screen and (min-width: 640px) {
+
+.gifts-title {
+    font-size: 50px;
+}
+
+.gift1 {
+    margin: 5px 10px 5px 50px;
+
+&__bag {
+    width: 300px;
+}
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+}
+    
+&__price {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+}
+    
+&__line {
+    margin: 5px 150px 5px 20px;
+}
+
+&__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+}
+
+}
+
+.gift2 {
+    margin: 5px 50px 5px 10px;
+
+&__hoodie {
+    width: 300px;
+}
+    
+&__title {
+    font-size: 25px;
+}
+    
+&__price {
+    font-size: 25px;
+}
+    
+&__line {
+    margin: 5px 90px 5px 20px;
+}
+
+&__description {
+    margin: 0 40px 0 20px;
+    font-size: 25px;
+}
+
+}
+
+
+.gift3 {
+    margin: 5px 10px 5px 50px;
+
+&__tshirt {
+    width: 300px;
+}
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+}
+    
+&__price {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+}
+    
+&__line {
+    margin: 5px 150px 5px 20px;
+}
+
+&__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+}
+
+}
+
+.gift4 {
+    margin: 5px 50px 5px 10px;
+
+&__mug {
+    width: 300px;
+}
+    
+&__title {
+    font-size: 25px;
+}
+    
+&__price {
+    font-size: 25px;
+}
+    
+&__line {
+    margin: 5px 90px 5px 20px;
+}
+
+&__description {
+    margin: 0 40px 0 20px;
+    font-size: 25px;
+}
+
+}
+
+.gift5 {
+    margin: 5px 10px 5px 50px;
+    
+&__tin-mug {
+    width: 300px;
+}
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+}
+    
+&__price {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+}
+    
+&__line {
+    margin: 5px 150px 5px 5px;
+}
+
+&__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 @media screen and (min-width: 1100px) {
 

@@ -25,9 +25,8 @@ body {
 
 .menu {
   font-weight: bold;
-  margin: 0 0 30px 20px;
+  margin: 0 0 10px 10px;
   align-content: left;
-  margin: 0;
   font-size: 20px;
 }
 .menu__item {
@@ -94,6 +93,103 @@ a:visited {
   background-color: rgba(233, 150, 122, 0.7);
 }
 
+@media screen and (min-width: 640px) {
+  body {
+    width: 900px;
+  }
+
+  .header-phone {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px 0 0 620px;
+  }
+
+  .logo-white {
+    width: 300px;
+    margin: 0 0 0 290px;
+  }
+
+  .menu {
+    margin: 0 0 20px 20px;
+    font-size: 40px;
+  }
+
+  .photo {
+    padding: 300px 20px;
+  }
+  .photo__link-menu {
+    font-size: 50px;
+    margin: 20px 700px 10px -20px;
+  }
+  .photo__link-reservation {
+    font-size: 50px;
+    margin: 20px 450px 10px -20px;
+  }
+}
+/*@media screen and (min-width: 1000px) {
+
+body {
+    height: auto;
+    margin: auto;
+}
+
+.logo-white {
+    margin: 30px 0 0 30px;
+}
+
+.menu {
+    font-weight: bold;
+    margin: 110px 30px 20px 0;
+    font-size: 30px;
+
+&__toggler {
+        display: none;
+    }
+    &__list {
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu a {
+    color: #242424;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: rgba($color: colors.$color-primary, $alpha: 1.0);
+}
+    }
+
+.header-pc-version {
+    padding: 0 0 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {    
+    padding: 400px 60px;
+
+&__link-menu {
+    font-size: 70px;
+    margin: 20px 1600px 10px -60px;
+    padding: 10px;
+}
+
+&__link-reservation {
+    font-size: 70px;
+    margin: 10px 1200px 10px -60px;
+    padding: 10px;
+}
+}*/
 .welcome {
   font-family: "Cormorant SC", serif;
   text-align: center;
@@ -112,6 +208,18 @@ a:visited {
   margin: 0 0 30px 0;
 }
 
+@media screen and (min-width: 640px) {
+  .welcome__title {
+    font-size: 60px;
+    margin: 10px 0 10px 0;
+  }
+  .welcome__name {
+    font-size: 70px;
+  }
+  .welcome__offer {
+    font-size: 40px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -150,6 +258,38 @@ a:visited {
   padding: 5px 50px 5px 50px;
 }
 
+.welcome {
+  font-family: "Cormorant SC", serif;
+  text-align: center;
+}
+.welcome__title {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+}
+.welcome__name {
+  font-size: 60px;
+  font-family: "Zen Loop", cursive;
+  margin: 0;
+}
+.welcome__offer {
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
+@media screen and (min-width: 640px) {
+  .box1 {
+    width: 900px;
+  }
+
+  .presented__title {
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+  }
+
+  .presented__description {
+    font-size: 30px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -275,6 +415,35 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (min-width: 640px) {
+  .event__title {
+    font-size: 50px;
+  }
+  .event__prosecco {
+    margin: 0 150px 20px 150px;
+  }
+  .event__prosecco-name, .event__prosecco-date {
+    font-size: 30px;
+  }
+  .event__coffee {
+    margin: 0 150px 20px 150px;
+  }
+  .event__coffee-name, .event__coffee-date {
+    font-size: 30px;
+  }
+  .event__food {
+    margin: 0 150px 20px 150px;
+  }
+  .event__food-name, .event__food-date {
+    font-size: 30px;
+  }
+  .event__birthday {
+    margin: 0 150px 20px 150px;
+  }
+  .event__birthday-name, .event__birthday-date {
+    font-size: 30px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -517,6 +686,32 @@ a:visited {
   width: 5%;
 }
 
+@media screen and (min-width: 640px) {
+  .contact__title {
+    font-size: 40px;
+  }
+  .contact__address {
+    font-size: 25px;
+  }
+  .contact__email {
+    font-size: 25px;
+  }
+  .contact__phone {
+    font-size: 25px;
+  }
+
+  .social-network {
+    margin: 30px;
+  }
+
+  .instagram {
+    width: 8%;
+  }
+
+  .facebook {
+    width: 8%;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -589,7 +784,6 @@ a:visited {
   font-weight: bold;
   font-size: 18px;
   background-image: url(/images/0tin_mug.jpg);
-  border-radius: 10px;
   color: white;
   padding: 10px;
   margin-bottom: 20px;
@@ -608,6 +802,42 @@ a:visited {
   display: none;
 }
 
+@media screen and (min-width: 640px) {
+  .offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px 30px 10px 30px;
+  }
+
+  .accessories__gifts {
+    font-size: 50px;
+  }
+  .accessories__bag {
+    margin: 0 40px 0 30px;
+    width: 300px;
+  }
+  .accessories__title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 0 0 30px;
+  }
+  .accessories__price {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 0 30px;
+  }
+  .accessories__offer {
+    font-size: 30px;
+    padding: 0;
+    margin: 5px 20px 20px 60px;
+  }
+  .accessories__offer-desc {
+    margin-top: 120px;
+    font-size: 30px;
+    padding: 40px 40px 40px 10px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -725,6 +955,27 @@ a:visited {
   margin-left: 30px;
 }
 
+@media screen and (min-width: 640px) {
+  .reservation-title {
+    font-size: 50px;
+  }
+
+  .form-field {
+    margin: 10px 30px 10px 40px;
+  }
+
+  .form-field label {
+    font-size: 40px;
+  }
+
+  .confirm-reservation {
+    margin: 20px 50px 30px 400px;
+  }
+
+  .gdpr {
+    margin-left: 40px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -780,6 +1031,16 @@ a:visited {
   padding: 10px;
 }
 
+@media screen and (min-width: 640px) {
+  .reservation__thanks,
+.reservation__mail {
+    font-size: 40px;
+  }
+
+  .reservation__back {
+    margin: 20px 50px 0 250px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -832,6 +1093,27 @@ a:visited {
   margin: 0 0 10px 20px;
 }
 
+@media screen and (min-width: 640px) {
+  .opening1__photo-interior {
+    width: 450px;
+  }
+
+  .opening {
+    width: 450px;
+  }
+  .opening__title {
+    font-size: 40px;
+  }
+  .opening__description {
+    font-size: 25px;
+  }
+  .opening__date {
+    font-size: 20px;
+  }
+  .opening__date-date {
+    font-size: 20px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -929,6 +1211,23 @@ a:visited {
   margin: 0;
 }
 
+@media screen and (min-width: 640px) {
+  .footer {
+    font-size: 15px;
+  }
+  .footer__logo-white {
+    width: 150px;
+    margin: 10px 30px 0px 60px;
+  }
+  .footer__contact {
+    font-size: 15px;
+    margin: 30px 30px 0px 150px;
+  }
+  .footer__hours {
+    font-size: 15px;
+    margin: 40px 20px 0px 150px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -962,11 +1261,12 @@ a:visited {
 }
 
 }*/
-.offer__title {
+.offer-title {
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
+
 .offer__box {
   display: flex;
   justify-content: space-between;
@@ -1035,6 +1335,52 @@ a:visited {
   grid-row: span 1;
 }
 
+@media screen and (min-width: 640px) {
+  .offer-title {
+    font-size: 50px;
+  }
+
+  .offer__meal {
+    font-size: 35px;
+  }
+
+  .offer__description,
+.offer__price {
+    font-size: 25px;
+  }
+
+  .offer__h5 {
+    font-size: 30px;
+  }
+
+  .offer__coffee-title,
+.offer__coffee-price {
+    font-size: 25px;
+  }
+
+  .offer__hot-title,
+.offer__hot-price {
+    font-size: 25px;
+  }
+
+  .offer__softd-title,
+.offer__softd-price {
+    font-size: 25px;
+  }
+
+  .offer__alcohol-title,
+.offer__alcohol-price {
+    font-size: 25px;
+  }
+
+  .gallery__grid {
+    gap: 5px;
+    margin: 90px;
+  }
+  .gallery__item {
+    width: 200px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -1246,6 +1592,27 @@ a:visited {
   font-size: 30px;
 }
 
+@media screen and (min-width: 640px) {
+  .second-header-phone {
+    font-size: 30px;
+    margin: 0 0 0 690px;
+  }
+
+  .logo-orange {
+    width: 350px;
+    margin: 20px 180px 0 260px;
+  }
+
+  .second-menu {
+    margin: 0 0 20px 30px;
+    font-size: 40px;
+  }
+
+  .menu-background-second {
+    padding: 30px;
+    margin: 30px 30px 0 30px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -1325,6 +1692,7 @@ body {
 .events__main-title {
   text-align: center;
   font-size: 30px;
+  font-weight: bold;
 }
 .events__photo-prosecco, .events__photo-coffee, .events__photo-bread, .events__photo-drink {
   display: none;
@@ -1356,6 +1724,28 @@ body {
   margin: 0 50px 5px 50px;
 }
 
+@media screen and (min-width: 640px) {
+  .events__main-title {
+    font-size: 50px;
+  }
+  .events__title-prosecco, .events__title-coffee, .events__title-bread, .events__title-drink {
+    font-size: 40px;
+  }
+  .events__date-prosecco, .events__date-coffee, .events__date-bread, .events__date-drink {
+    font-size: 30px;
+  }
+  .events__descriptions-prosecco, .events__descriptions-coffee, .events__descriptions-bread, .events__descriptions-drink {
+    font-size: 25px;
+  }
+
+  .events-line1 {
+    margin: 0 30px 10px 30px;
+  }
+
+  .events-line2 {
+    margin: 0 50px 8px 50px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 
@@ -1523,6 +1913,117 @@ body {
   margin: 0 10px 0 5px;
 }
 
+@media screen and (min-width: 640px) {
+  .gifts-title {
+    font-size: 50px;
+  }
+
+  .gift1 {
+    margin: 5px 10px 5px 50px;
+  }
+  .gift1__bag {
+    width: 300px;
+  }
+  .gift1__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift1__price {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+  }
+  .gift1__line {
+    margin: 5px 150px 5px 20px;
+  }
+  .gift1__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+  }
+
+  .gift2 {
+    margin: 5px 50px 5px 10px;
+  }
+  .gift2__hoodie {
+    width: 300px;
+  }
+  .gift2__title {
+    font-size: 25px;
+  }
+  .gift2__price {
+    font-size: 25px;
+  }
+  .gift2__line {
+    margin: 5px 90px 5px 20px;
+  }
+  .gift2__description {
+    margin: 0 40px 0 20px;
+    font-size: 25px;
+  }
+
+  .gift3 {
+    margin: 5px 10px 5px 50px;
+  }
+  .gift3__tshirt {
+    width: 300px;
+  }
+  .gift3__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift3__price {
+    margin: 0 0 0 20px;
+    font-size: 25px;
+  }
+  .gift3__line {
+    margin: 5px 150px 5px 20px;
+  }
+  .gift3__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+  }
+
+  .gift4 {
+    margin: 5px 50px 5px 10px;
+  }
+  .gift4__mug {
+    width: 300px;
+  }
+  .gift4__title {
+    font-size: 25px;
+  }
+  .gift4__price {
+    font-size: 25px;
+  }
+  .gift4__line {
+    margin: 5px 90px 5px 20px;
+  }
+  .gift4__description {
+    margin: 0 40px 0 20px;
+    font-size: 25px;
+  }
+
+  .gift5 {
+    margin: 5px 10px 5px 50px;
+  }
+  .gift5__tin-mug {
+    width: 300px;
+  }
+  .gift5__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift5__price {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift5__line {
+    margin: 5px 150px 5px 5px;
+  }
+  .gift5__description {
+    margin: 0 10px 0 20px;
+    font-size: 25px;
+  }
+}
 /*
 @media screen and (min-width: 1100px) {
 

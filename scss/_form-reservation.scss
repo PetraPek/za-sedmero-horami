@@ -45,6 +45,35 @@
 	margin-left: 30px;
 }
 
+@media screen and (min-width: 640px) {
+
+.reservation-title {
+	font-size: 50px;
+}
+
+.form-field {
+	margin: 10px 30px 10px 40px;
+}
+
+.form-field label {
+	font-size: 40px;
+}
+
+.confirm-reservation {
+	margin: 20px 50px 30px 400px;
+}
+
+.gdpr {
+	margin-left: 40px;
+}
+
+}
+
+
+
+
+
+
 /*
 @media screen and (min-width: 1100px) {
 
