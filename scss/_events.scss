@@ -3,9 +3,9 @@
 
 .event {
 
-
 &__title {
     text-align: center;
+    font-size: 30px;
 }
 
 &__prosecco {
@@ -22,7 +22,7 @@
 
 &__prosecco-name,
 &__prosecco-date {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
     margin-top: 20px;
@@ -57,7 +57,7 @@
 
 &__coffee-name,
 &__coffee-date {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
     margin-top: 20px;
@@ -85,7 +85,7 @@
 
 &__food-name,
 &__food-date {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
     margin-top: 20px;
@@ -113,7 +113,7 @@
 
 &__birthday-name,
 &__birthday-date {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 15px;
     margin-top: 20px;
@@ -134,7 +134,7 @@
 .birthday-link {
     text-decoration: none;
 }
-
+/*
 @media screen and (min-width: 1100px) {
     
 .event {
@@ -336,4 +336,4 @@
 }
 
 
-}
+}*/

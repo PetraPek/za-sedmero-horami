@@ -1,6 +1,12 @@
 @use "colors";
 @use "fonts";
 
+.second-header-phone {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 0 360px;
+}
+
 .logo-orange {
 	width: 30%;
 	border-radius: 90%;
@@ -14,7 +20,7 @@
 	background-size: cover;
 }
 
-.menu-mobile {
+.second-menu__mobile {
 	font-weight: bold;
 	margin: 0 0 20px 0;
 	font-size: 25px;
@@ -22,7 +28,13 @@
 	padding: 0;
 }	
 
-.menu-menu {
+.second-menu {
+	font-weight: bold;
+	margin: 0 0 20px 20px;
+	align-content: left;
+	margin: 0;
+	font-size: 20px;
+	color: white;
 
 &__item {
 	margin: 20px;
@@ -38,7 +50,6 @@
 &__toggler {
 		cursor: pointer;
 		margin: 20px;
-
 	}
 
 &__list {
@@ -54,7 +65,7 @@
 		text-decoration: none;
 	}
 
-&__checkbox:checked ~ .menu__list {
+&__checkbox:checked ~ .second-menu__list {
 		display: block;
 	}
 
@@ -76,7 +87,7 @@ a:visited {
 	margin: 10px 140px 10px 140px;
 	font-size: 30px;
 }
-
+/*
 @media screen and (min-width: 1100px) {
 
 body {
@@ -151,4 +162,4 @@ body {
 
 
 
-}
+}*/
