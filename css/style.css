@@ -890,7 +890,7 @@ a:visited {
 @media screen and (min-width: 1100px) {
   .footer {
     width: 100%;
-    font-size: 40px;
+    font-size: 20px;
   }
   .footer__summary {
     display: flex;
