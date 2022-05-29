@@ -10,7 +10,8 @@
     margin: 5px 10px 5px 30px;
 
 &__bag {
-    width: 150px;
+    max-width: 100%;
+    height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
 }
@@ -40,7 +41,8 @@
     margin: 10px 30px 5px 10px;
 
 &__hoodie {
-    width: 200px;
+    max-width: 100%;
+    height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
 }
@@ -70,7 +72,8 @@
     margin: 5px 10px 5px 30px;
 
 &__tshirt {
-    width: 150px;
+    max-width: 100%;
+    height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
 }
@@ -100,7 +103,8 @@
     margin: 10px 30px 5px 10px;
 
 &__mug {
-    width: 200px;
+    max-width: 100%;
+    height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
 }
@@ -130,7 +134,8 @@
     
 
 &__tin-mug {
-    width: 150px;
+    max-width: 100%;
+    height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
 }
@@ -157,50 +162,55 @@
 @media screen and (min-width: 1100px) {
 
 .gifts-title {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .gift-box1 {
     display: flex;
+    width: 100%;
 }
 
 .gift1 {
-    margin: 5px 30px 5px 30px;
-
+    width: 50%;
+    margin: 10px 100px 10px 100px;
+    
 &__bag {
-    width: 250px;
-    padding: 0 0px 90px 0px;
-    margin-right: 30px;
+    width: 350px;
     }
     
 &__title {
-    margin: 30px 0 5px 0;
-    font-size: 30px;
+    margin: 150px 0 5px 20px;
+    font-size: 40px;
     }
     
 &__price {
     font-size: 30px;
+    margin: 0 0 5px 20px;
     }
     
 &__description {
     font-size: 20px;
+    margin: 0 20px 5px 20px;
+}
+
+&__line {
+    margin: 0 110px 0 20px;
 }
 
 }
 
 .gift2 {
+    width: 50%;
     flex-direction: row;
-    margin: 20px 30px 5px 30px;
 
-&__bag {
-    width: 500px;
-    padding: 0 0px 90px 0px;
-    margin-right: 30px;
+&__hoodie {
+    width: 400px;
+    margin: 90px 0 0 0;
     }
     
 &__title {
-    margin: 30px 0 5px 0;
-    font-size: 30px;
+    margin: 150px 0 5px 20px;
+    font-size: 40px;
     }
     
 &__price {
@@ -218,17 +228,51 @@
 }
 
 .gift3 {
-    margin: 5px 30px 5px 30px;
-
-&__bag {
-    width: 300px;
-    padding: 0 0px 110px 0px;
-    margin-right: 30px;
+    width: 50%;
+    margin: 10px 100px 10px 100px;
+    
+&__tshirt {
+    width: 340px;
     }
     
 &__title {
-    margin: 30px 0 5px 0;
+    margin: 150px 0 5px 20px;
+    font-size: 40px;
+    }
+    
+&__price {
     font-size: 30px;
+    margin: 0 0 5px 20px;
+    }
+    
+&__description {
+    font-size: 20px;
+    margin: 0 20px 5px 20px;
+}
+
+&__line {
+    margin: 0 110px 0 20px;
+}
+
+}
+
+.gift4 {
+    width: 50%;
+    flex-direction: row;
+}
+
+.gift4 {
+    width: 50%;
+    flex-direction: row;
+
+&__mug {
+    width: 400px;
+    margin: 90px 0 0 0;
+    }
+    
+&__title {
+    margin: 150px 0 5px 20px;
+    font-size: 40px;
     }
     
 &__price {
@@ -241,29 +285,34 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gift4 {
-    flex-direction: row;
-    margin: 5px 30px 5px 30px;
+.gift5 {
+    width: 50%;
+    margin: 10px 100px 10px 100px;
+    
+&__tin-mug {
+    width: 325px;
+    }
+    
+&__title {
+    margin: 150px 0 5px 20px;
+    font-size: 40px;
+    }
+    
+&__price {
+    font-size: 30px;
+    margin: 0 0 5px 20px;
+    }
+    
+&__description {
+    font-size: 20px;
+    margin: 0 20px 5px 20px;
 }
 
+&__line {
+    margin: 0 110px 0 20px;
+}
 
+}
 
 
 
