@@ -19,45 +19,25 @@
 
 @media screen and (min-width: 640px) {
 
+
+.reservation {
+	margin: 90px;
+	padding: 20px;
+}
+
 .reservation__thanks,
 .reservation__mail {
 	font-size: 40px;
 }
 
 .reservation__back {
-	margin: 20px 50px 0 250px;
+	margin: 20px 50px 20px 270px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
+@media screen and (min-width: 1040px) {
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media screen and (min-width: 1100px) {
 
 .reservation-title {
 	font-size: 60px;
@@ -65,7 +45,6 @@
 
 .reservation {
 	margin: 170px;
-	max-width: 100%;
 }
 
 .reservation__thanks,
@@ -74,9 +53,18 @@
 }
 
 .reservation__back {
-	margin: 20px 90px 0 600px;
+	margin: 20px 90px 60px 400px;
 	font-size: 30px;
 	padding: 10px;
 }
 
-}*/
+
+
+}
+
+
+
+
+
+
+

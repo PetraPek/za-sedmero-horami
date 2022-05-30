@@ -4,7 +4,7 @@
 body {
 	padding: 0;
     line-height: 1.5;
-    width:500px;
+    width: 500px;
     margin: auto;
 	font-family: fonts.$default-font;
 }
@@ -142,20 +142,17 @@ body {
 }
 }
 
-
-
-
 }
 
-
-
-
-
-/*@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1040px) {
 
 body {
-    height: auto;
-    margin: auto;
+    width: 1400px;
+}
+
+.header-phone {
+	font-size: 40px;
+	margin: 30px 0 0 1100px;
 }
 
 .logo-white {
@@ -163,9 +160,8 @@ body {
 }
 
 .menu {
-    font-weight: bold;
-    margin: 110px 30px 20px 0;
-    font-size: 30px;
+    margin: 130px 0 20px 0;
+    font-size: 32px;
 
 &__toggler {
         display: none;
@@ -191,7 +187,7 @@ body {
     text-decoration: underline;
     color: rgba($color: colors.$color-primary, $alpha: 1.0);
 }
-    }
+
 
 .header-pc-version {
     padding: 0 0 20px 0;
@@ -200,18 +196,21 @@ body {
     justify-content: space-between;
 }
 
-.photo {    
-    padding: 400px 60px;
+.photo {
+	width: 100%;
 
 &__link-menu {
-    font-size: 70px;
-    margin: 20px 1600px 10px -60px;
-    padding: 10px;
+	font-size: 60px;
+	margin: 20px 1100px 10px -20px;
+	padding-left: 20px;	
 }
 
 &__link-reservation {
-    font-size: 70px;
-    margin: 10px 1200px 10px -60px;
-    padding: 10px;
+	font-size: 60px;
+	margin: 20px 830px 10px -20px;	
+	padding-left: 20px;	
 }
-}*/
+
+}
+
+}

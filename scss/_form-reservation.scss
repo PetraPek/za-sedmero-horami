@@ -24,21 +24,11 @@
 	color: red;
 }
 
-.reservation-title {
-	text-align: center;
-}
-
 .reservation {
 	padding: 80px;
 	margin: 30px 20px 30px 20px;
 	border-radius: 5px;
 	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
-}
-
-.photo {
-	display: flex;
-	flex-direction: column;
-	font-size: 25px;
 }
 
 .gdpr {
@@ -69,47 +59,30 @@
 
 }
 
-
-
-
-
-
-/*
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1040px) {
 
 .reservation-title {
-	font-size: 60px;
+	text-align: center;
 }
 
 .form-field {
-	margin: 10px 60px 10px 150px;
+	margin: 10px 300px 10px 300px;
 }
 
 .form-field label {
-	font-size: 30px;
+	font-size: 27px;
 }
 
 .confirm-reservation {
-	margin: 20px 190px 20px 150px;
-}
-
-.reguired {
-	color: red;
-}
-
-.reservation {
-	padding: 80px;
-	margin: 30px 20px 30px 20px;
-	border-radius: 5px;
-	background-color: rgba($color: colors.$color-primary, $alpha: 0.2);
+	margin: 20px 50px 30px 630px;
 }
 
 .gdpr {
-	margin: 30px;
+	margin-left: 300px;
 }
 
+.form-field input {
+	width: 100%;
+}
 
-
-
-
-}*/
+}
