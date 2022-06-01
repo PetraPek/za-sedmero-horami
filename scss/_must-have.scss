@@ -12,6 +12,7 @@
 
 &__gifts {
 	text-align: center;
+	font-size: 25px;
 }
 
 &__bag {
@@ -73,7 +74,7 @@
 .accessories {
 
 &__gifts {
-	font-size: 50px;
+	font-size: 35px;
 }
 
 &__bag {
@@ -97,6 +98,7 @@
 	font-size: 30px;
 	padding: 0;
 	margin: 5px 20px 20px 60px;
+	color: white;
 	}
 
 &__offer-desc {
@@ -107,9 +109,7 @@
 
 }
 
-
 }
-
 
 
 @media screen and (min-width: 1040px) {
@@ -123,7 +123,7 @@
 	}
 
 &__gifts {
-	font-size: 60px;
+	font-size: 50px;
 }
 
 &__bag {

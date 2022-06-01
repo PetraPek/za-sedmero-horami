@@ -4,6 +4,7 @@
 
 .reservation-title {
 	text-align: center;
+	font-size: 25px;
 }
 
 .form-field {
@@ -12,7 +13,7 @@
 
 .form-field label {
 	display: block;
-	font-size: 20px;
+	font-size: 17px;
 	
 }
 
@@ -35,18 +36,22 @@
 	margin-left: 30px;
 }
 
+.form-field input {
+	width: 80%;
+}
+
 @media screen and (min-width: 640px) {
 
 .reservation-title {
-	font-size: 50px;
+	font-size: 35px;
 }
 
 .form-field {
-	margin: 10px 30px 10px 40px;
+	margin: 10px 30px 10px 170px;
 }
 
 .form-field label {
-	font-size: 40px;
+	font-size: 25px;
 }
 
 .confirm-reservation {
@@ -54,19 +59,18 @@
 }
 
 .gdpr {
-	margin-left: 40px;
-}
-
-}
+	margin-left: 170px;
+}}
 
 @media screen and (min-width: 1040px) {
 
 .reservation-title {
 	text-align: center;
+	font-size: 50px;
 }
 
 .form-field {
-	margin: 10px 300px 10px 300px;
+	margin: 10px 300px 10px 500px;
 }
 
 .form-field label {
@@ -74,15 +78,15 @@
 }
 
 .confirm-reservation {
-	margin: 20px 50px 30px 630px;
+	margin: 20px 100px 30px 650px;
 }
 
 .gdpr {
-	margin-left: 300px;
+	margin-left: 500px;
 }
 
 .form-field input {
-	width: 100%;
+	width: 70%;
 }
 
 }

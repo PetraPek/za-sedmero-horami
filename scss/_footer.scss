@@ -17,47 +17,47 @@
 &__logo-white {
 	width: 100px;
 	margin: 10px 30px 0px 40px;
-}
+	}
 
 &__contact {
 	font-size: 8px;
 	margin: 30px 30px 0px 50px;
-}
+	}
 
 &__contact-address-street {
 	margin: 0;
-}
+	}
 
 &__contact-address-town {
 	margin: 0;
-}
+	}
 
 &__contact-link {
 	margin-bottom: 0;
-}
+	}
 
 &__contact-phone {
 	margin-top: 0;
 	margin-bottom: 0;
-}
+	}
 
 &__hours {
 	font-size: 8px;
 	margin: 40px 20px 0px 50px;
-}
+	}
 
 &__hours-open-week {
 	margin: 0;
-}
+	}
 
 &__hours-open-weekend {
 	margin: 0;
-}
+	}
 
 &__name,
 &__since {
     margin: 0;
-}
+	}
 }
 
 @media screen and (min-width: 640px) {
@@ -68,49 +68,38 @@
 &__logo-white {
 	width: 150px;
 	margin: 10px 30px 0px 60px;
-}
+	}
 
 &__contact {
 	font-size: 15px;
 	margin: 30px 30px 0px 150px;
-}
+	}
 
 &__hours {
 	font-size: 15px;
 	margin: 40px 20px 0px 150px;
-}
-
+	}
 }
 }
 
 @media screen and (min-width: 1040px) {
 
-	.footer {
-		font-size: 15px;
+.footer {
+	font-size: 15px;
 	
-	&__logo-white {
-		width: 150px;
-		margin: 15px 30px 0px 50px;
+&__logo-white {
+	width: 150px;
+	margin: 15px 30px 0px 50px;
 	}
 	
-	&__contact {
-		font-size: 15px;
-		margin: 30px 30px 0px 410px;
+&__contact {
+	font-size: 15px;
+	margin: 30px 30px 0px 410px;
 	}
 	
-	&__hours {
-		font-size: 15px;
-		margin: 60px 30px 0px 400px;
+&__hours {
+	font-size: 15px;
+	margin: 60px 30px 0px 400px;
 	}
-
-
 }
-
-
-
 }
-
-
-
-
-

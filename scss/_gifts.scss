@@ -3,6 +3,7 @@
 
 .gifts-title {
     text-align: center;
+    font-size: 25px;
 }
 
 .gift1 {
@@ -10,28 +11,29 @@
     margin: 5px 10px 5px 30px;
 
 &__bag {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
-}
+    }
     
 &__title {
-    margin: 10px 0 5px 5px;
+    margin: 10px 0 5px 10px;
     font-size: 20px;
-}
+    }
     
 &__price {
-    margin: 0 0 0 5px;
-}
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    }
     
 &__line {
-    margin: 5px 150px 5px 5px;
-}
+    margin: 5px 150px 5px 10px;
+    }
 
 &__description {
-    margin: 0 10px 0 5px;
-}
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+    }
 
 }
 
@@ -41,91 +43,92 @@
     margin: 10px 30px 5px 10px;
 
 &__hoodie {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
-}
+    }
     
 &__title {
     margin: 10px 0 0 20px;
     font-size: 20px;
-}
+    }
     
 &__price {
     margin: 0 0 0 20px;
-}
+    font-size: 15px;
+    }
     
 &__line {
-    margin: 5px 90px 5px 20px;
-}
+    margin: 5px 150px 5px 22px;
+    }
 
 &__description {
-    margin: 0 0 0 20px;
+    margin: 0 7px 0 20px;
+    font-size: 15px;
+    }
 }
-
-}
-
 
 .gift3 {
     display: flex;
     margin: 5px 10px 5px 30px;
 
 &__tshirt {
-    max-width: 100%;
+    width: 150px;
     height: auto;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
-}
+    }
     
 &__title {
     margin: 10px 0 5px 5px;
     font-size: 20px;
-}
+    }
     
 &__price {
     margin: 0 0 0 5px;
-}
+    font-size: 15px;
+    }
     
 &__line {
-    margin: 5px 150px 5px 5px;
-}
+    margin: 5px 150px 5px 10px;
+    }
 
 &__description {
     margin: 0 10px 0 5px;
-}
+    font-size: 15px;
+    }
 
 }
 
 .gift4 {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10px 30px 5px 10px;
+    margin: 5px 30px 5px 10px;
 
 &__mug {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
-}
+    }
     
 &__title {
     margin: 10px 0 0 20px;
     font-size: 20px;
-}
+    }
     
 &__price {
     margin: 0 0 0 20px;
-}
+    font-size: 15px;
+    }
     
 &__line {
-    margin: 5px 90px 5px 20px;
-}
+    margin: 5px 150px 5px 22px;
+    }
 
 &__description {
     margin: 0 0 0 20px;
-}
-
+    font-size: 15px;
+    }
 }
 
 .gift5 {
@@ -134,176 +137,360 @@
     
 
 &__tin-mug {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
     padding: 0 0px 60px 0px;
     margin-right: 10px;
-}
+    }
     
 &__title {
     margin: 10px 0 5px 5px;
     font-size: 20px;
-}
+    }
     
 &__price {
     margin: 0 0 0 5px;
-}
+    font-size: 15px;
+    }
     
 &__line {
-    margin: 5px 150px 5px 5px;
-}
+    margin: 5px 150px 5px 10px;
+    }
 
 &__description {
     margin: 0 10px 0 5px;
+    font-size: 15px;
+    }
 }
 
+.produkty-info {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px 5px 10px;
 }
+
 
 @media screen and (min-width: 640px) {
+
+.gifts-title {
+    font-size: 35px;
+}
+
+.gift1 {
+    margin: 5px 10px 5px 50px;
+
+&__bag {
+    width: 300px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 28px;
+    }
+    
+&__price {
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    }
+    
+&__line {
+    margin: 5px 150px 5px 20px;
+    }
+
+&__description {
+    margin: 0 10px 0 20px;
+    font-size: 20px;
+    }
+
+}
+
+.gift2 {
+    margin: 5px 50px 5px 10px;
+
+&__hoodie {
+    width: 300px;
+    margin: 15px 20px 5px 50px;
+    }
+
+&__title {
+    font-size: 28px;
+    margin-left: 40px;
+    }
+    
+&__price {
+    font-size: 20px;
+    margin-left: 40px;
+    }
+    
+&__line {
+    margin: 5px 230px 5px 40px;
+    }
+
+&__description {
+    margin: 0 40px 0 40px;
+    font-size: 20px;
+    }
+
+}
+
+
+.gift3 {
+    margin: 5px 10px 5px 50px;
+
+&__tshirt {
+    width: 300px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 28px;
+    }
+    
+&__price {
+    margin: 0 0 0 20px;
+    font-size: 20px;
+    }
+    
+&__line {
+    margin: 5px 270px 5px 20px;
+    }
+
+&__description {
+    margin: 0 80px 0 20px;
+    font-size: 20px;
+    }
+
+}
+
+.gift4 {
+    margin: 5px 50px 5px 10px;
+
+&__mug {
+    width: 300px;
+    margin: 15px 20px 5px 50px;
+    }
+    
+&__title {
+    font-size: 28px;
+    margin-left: 40px;
+    }
+    
+&__price {
+    font-size: 20px;
+    margin-left: 40px;
+    }
+    
+&__line {
+    margin: 5px 200px 5px 40px;
+    }
+
+&__description {
+    margin: 0 40px 0 40px;
+    font-size: 20px;
+    }
+}
+
+.gift5 {
+    margin: 5px 10px 5px 50px;
+    
+&__tin-mug {
+    width: 300px;
+    }
+    
+&__title {
+    margin: 30px 0 5px 20px;
+    font-size: 30px;
+    }
+    
+&__price {
+    margin: 0 0 5px 20px;
+    font-size: 20px;
+    }
+    
+&__line {
+    margin: 5px 80px 5px 20px;
+    }
+
+&__description {
+    margin: 0 10px 0 20px;
+    font-size: 20px;
+    }
+
+}
+
+.produkty-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px 5px 20px;
+}
+
+}
+
+
+@media screen and (min-width: 1040px) {
+
 
 .gifts-title {
     font-size: 50px;
 }
 
-.gift1 {
-    margin: 5px 10px 5px 50px;
-
-&__bag {
-    width: 300px;
+.gift-box1 {
+    display: flex;
+    
 }
+
+.gift1 {
+    width: 50%;
+    margin: 10px 50px 10px 50px;
+    
+&__bag {
+    width: 250px;
+    }
     
 &__title {
-    margin: 30px 0 5px 20px;
+    margin: 40px 0 5px 20px;
     font-size: 30px;
-}
+    }
     
 &__price {
-    margin: 0 0 0 20px;
     font-size: 25px;
-}
+    margin: 0 0 5px 20px;
+    }
     
-&__line {
-    margin: 5px 150px 5px 20px;
-}
-
 &__description {
-    margin: 0 10px 0 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 }
 
 .gift2 {
-    margin: 5px 50px 5px 10px;
+    width: 50%;
+    flex-direction: row;
+    margin: 5px;
 
 &__hoodie {
-    width: 300px;
-}
+    width: 350px;
+    margin: 45px 0 0 0;
+    }
     
 &__title {
-    font-size: 25px;
-}
+    margin: 70px 0 5px 20px;
+    font-size: 30px;
+    }
     
 &__price {
     font-size: 25px;
-}
+    margin-left: 20px;
+    }
     
-&__line {
-    margin: 5px 90px 5px 20px;
-}
-
 &__description {
-    margin: 0 40px 0 20px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+&__line {
+    margin: 5px 80px 5px 20px;
 }
 
 }
 
+.gift-box2 {
+    display: flex;
+}
 
 .gift3 {
-    margin: 5px 10px 5px 50px;
-
+    width: 50%;
+    margin: 10px 50px 10px 50px;
+    
 &__tshirt {
-    width: 300px;
-}
+    width: 245px;
+    }
     
 &__title {
-    margin: 30px 0 5px 20px;
+    margin: 40px 0 5px 20px;
     font-size: 30px;
-}
+    }
     
 &__price {
-    margin: 0 0 0 20px;
     font-size: 25px;
-}
+    margin: 0 0 5px 20px;
+    }
     
-&__line {
-    margin: 5px 150px 5px 20px;
+&__description {
+    font-size: 20px;
+    margin: 0 20px 5px 20px;
 }
 
-&__description {
-    margin: 0 10px 0 20px;
-    font-size: 25px;
+&__line {
+    margin: 0 160px 0 20px;
 }
 
 }
 
 .gift4 {
-    margin: 5px 50px 5px 10px;
+    width: 50%;
+    flex-direction: row;
+    margin: 5px;
 
 &__mug {
-    width: 300px;
-}
+    width: 350px;
+    margin: 45px 0 0 0;
+    }
     
 &__title {
-    font-size: 25px;
-}
+    margin: 70px 0 5px 20px;
+    font-size: 30px;
+    }
     
 &__price {
     font-size: 25px;
-}
+    margin-left: 20px;
+    }
     
-&__line {
-    margin: 5px 90px 5px 20px;
-}
-
 &__description {
-    margin: 0 40px 0 20px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 20px;
+    }
+
+&__line {
+    margin: 5px 80px 5px 20px;
 }
 
 }
 
 .gift5 {
-    margin: 5px 10px 5px 50px;
+    width: 50%;
+    margin: 10px 50px 10px 50px;
     
 &__tin-mug {
-    width: 300px;
-}
+    width: 250px;
+    }
     
 &__title {
-    margin: 30px 0 5px 20px;
+    margin: 40px 0 5px 20px;
     font-size: 30px;
-}
+    }
     
 &__price {
-    margin: 30px 0 5px 20px;
-    font-size: 30px;
-}
-    
-&__line {
-    margin: 5px 150px 5px 5px;
-}
-
-&__description {
-    margin: 0 10px 0 20px;
     font-size: 25px;
+    margin: 0 0 5px 20px;
+    }
+    
+&__description {
+    font-size: 20px;
 }
 
+&__line {
+    margin: 0 110px 0 20px;
 }
 
-
+&__line {
+    margin: 0 60px 0 20px;
 }
+
+}}
+
 
 
 

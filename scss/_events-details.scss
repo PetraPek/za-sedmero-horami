@@ -5,26 +5,25 @@
 
 &__main-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-}
+    }
     
 &__photo-prosecco,
 &__photo-coffee,
 &__photo-bread,
 &__photo-drink {
     display: none;
-}
+    }
     
 &__title-prosecco,
 &__title-coffee,
 &__title-bread,
 &__title-drink {
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     margin: 20px 0;
-    
-}
+    }
     
 &__date-prosecco,
 &__date-coffee,
@@ -34,7 +33,7 @@
     font-size: 20px;
     margin: 0;
     font-weight: bold;
-}
+    }
     
 &__descriptions-prosecco,
 &__descriptions-coffee,
@@ -44,9 +43,8 @@
     padding: 10px;
     margin: 0;
     font-weight: bold;
-    font-size: 18px;
-}
-
+    font-size: 15px;
+    }
 }
 
 .events-line1 {
@@ -62,30 +60,29 @@
 .events {
 
 &__main-title {
-    font-size: 50px;
-}
+    font-size: 35px;
+    }
     
 &__title-prosecco,
 &__title-coffee,
 &__title-bread,
 &__title-drink {
-    font-size: 40px;
-}
+    font-size: 28px;
+    }
     
 &__date-prosecco,
 &__date-coffee,
 &__date-bread,
 &__date-drink {
-    font-size: 30px;
-}
+    font-size: 25px;
+    }
     
 &__descriptions-prosecco,
 &__descriptions-coffee,
 &__descriptions-bread,
 &__descriptions-drink {
-    font-size: 25px;
-}
-
+    font-size: 20px;
+    }
 }
 
 .events-line1 {
@@ -95,10 +92,39 @@
 .events-line2 {
     margin: 0 50px 8px 50px;
 }
-
-
 }
 
+@media screen and (min-width: 1040px) {
+
+.events {
+
+&__main-title {
+    font-size: 50px;
+    }
+    
+&__title-prosecco,
+&__title-coffee,
+&__title-bread,
+&__title-drink {
+    font-size: 35px;
+    }
+    
+&__date-prosecco,
+&__date-coffee,
+&__date-bread,
+&__date-drink {
+    font-size: 30px;
+    }
+    
+&__descriptions-prosecco,
+&__descriptions-coffee,
+&__descriptions-bread,
+&__descriptions-drink {
+    font-size: 25px;
+    }
+}
+
+}
 
 
 

@@ -10,36 +10,15 @@
 }
 
 .presented__title {
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
 }
 
 .presented__description {
-	font-size: 20px;
+	font-size: 15px;
     padding: 5px 50px 5px 50px;
 }
 
-.welcome {
-	font-family: fonts.$default-font;
-	text-align: center;
-
-&__title {
-        font-size: 30px;
-        margin: 10px 0 10px 0;
-    }
-
-&__name {
-        font-size: 60px;
-        font-family: fonts.$secondary-font;
-        margin: 0;
-    }
-
-&__offer {
-        font-size: 20px;
-        margin: 0 0 30px 0;
-    }
-
-}
 
 @media screen and (min-width: 640px) {
 
@@ -48,12 +27,12 @@
 }
 
 .presented__title {
-	font-size: 50px;
+	font-size: 35px;
 	margin: 10px 0 10px 0;
 }
 
 .presented__description {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 }
@@ -65,11 +44,11 @@
 }
 
 .presented__title {
-	font-size: 35px;
+	font-size: 50px;
 }
 
 .presented__description {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 }

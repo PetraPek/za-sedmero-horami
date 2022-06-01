@@ -14,8 +14,8 @@ body {
 
 .header-phone {
   font-weight: bold;
-  font-size: 20px;
-  margin: 30px 0 0 360px;
+  font-size: 15px;
+  margin: 30px 0 0 390px;
 }
 
 .logo-white {
@@ -100,18 +100,18 @@ a:visited {
 
   .header-phone {
     font-weight: bold;
-    font-size: 40px;
-    margin: 30px 0 0 620px;
+    font-size: 25px;
+    margin: 30px 0 0 720px;
   }
 
   .logo-white {
-    width: 300px;
-    margin: 0 0 0 290px;
+    width: 250px;
+    margin: 0 0 0 320px;
   }
 
   .menu {
     margin: 0 0 20px 20px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .photo {
@@ -132,8 +132,8 @@ a:visited {
   }
 
   .header-phone {
-    font-size: 40px;
-    margin: 30px 0 0 1100px;
+    font-size: 35px;
+    margin: 30px 0 0 1150px;
   }
 
   .logo-white {
@@ -142,7 +142,7 @@ a:visited {
 
   .menu {
     margin: 130px 0 20px 0;
-    font-size: 32px;
+    font-size: 35px;
   }
   .menu__toggler {
     display: none;
@@ -194,7 +194,7 @@ a:visited {
   text-align: center;
 }
 .welcome__title {
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px 0 10px 0;
 }
 .welcome__name {
@@ -209,22 +209,22 @@ a:visited {
 
 @media screen and (min-width: 640px) {
   .welcome__title {
-    font-size: 40px;
+    font-size: 35px;
     margin: 10px 0 10px 0;
   }
   .welcome__name {
     font-size: 70px;
   }
   .welcome__offer {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1040px) {
   .welcome__title {
-    font-size: 60px;
+    font-size: 50px;
   }
   .welcome__name {
-    font-size: 600px;
+    font-size: 90px;
   }
   .welcome__offer {
     font-size: 40px;
@@ -238,31 +238,13 @@ a:visited {
 }
 
 .presented__title {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 
 .presented__description {
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px 50px 5px 50px;
-}
-
-.welcome {
-  font-family: "Cormorant SC", serif;
-  text-align: center;
-}
-.welcome__title {
-  font-size: 30px;
-  margin: 10px 0 10px 0;
-}
-.welcome__name {
-  font-size: 60px;
-  font-family: "Zen Loop", cursive;
-  margin: 0;
-}
-.welcome__offer {
-  font-size: 20px;
-  margin: 0 0 30px 0;
 }
 
 @media screen and (min-width: 640px) {
@@ -271,12 +253,12 @@ a:visited {
   }
 
   .presented__title {
-    font-size: 50px;
+    font-size: 35px;
     margin: 10px 0 10px 0;
   }
 
   .presented__description {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 @media screen and (min-width: 1040px) {
@@ -285,16 +267,16 @@ a:visited {
   }
 
   .presented__title {
-    font-size: 35px;
+    font-size: 50px;
   }
 
   .presented__description {
-    font-size: 25px;
+    font-size: 30px;
   }
 }
 .event__title {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 .event__prosecco {
   background-image: url(/images/Prosecco.jpg);
@@ -308,7 +290,7 @@ a:visited {
   height: auto;
 }
 .event__prosecco-name, .event__prosecco-date {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
@@ -335,7 +317,7 @@ a:visited {
   height: auto;
 }
 .event__coffee-name, .event__coffee-date {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
@@ -359,7 +341,7 @@ a:visited {
   height: auto;
 }
 .event__food-name, .event__food-date {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
@@ -383,7 +365,7 @@ a:visited {
   height: auto;
 }
 .event__birthday-name, .event__birthday-date {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   padding-top: 15px;
   margin-top: 20px;
@@ -405,31 +387,31 @@ a:visited {
 
 @media screen and (min-width: 640px) {
   .event__title {
-    font-size: 50px;
+    font-size: 35px;
   }
   .event__prosecco {
     margin: 0 150px 20px 150px;
   }
   .event__prosecco-name, .event__prosecco-date {
-    font-size: 30px;
+    font-size: 24px;
   }
   .event__coffee {
     margin: 0 150px 20px 150px;
   }
   .event__coffee-name, .event__coffee-date {
-    font-size: 30px;
+    font-size: 24px;
   }
   .event__food {
     margin: 0 150px 20px 150px;
   }
   .event__food-name, .event__food-date {
-    font-size: 30px;
+    font-size: 24px;
   }
   .event__birthday {
     margin: 0 150px 20px 150px;
   }
   .event__birthday-name, .event__birthday-date {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 1040px) {
@@ -440,7 +422,7 @@ a:visited {
     padding: 0 20px 0 20px;
   }
   .event__title {
-    font-size: 40px;
+    font-size: 50px;
   }
   .event__prosecco {
     background-image: none;
@@ -471,7 +453,7 @@ a:visited {
   .event__prosecco-description h3, .event p {
     margin: 0;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
   }
   .event__prosecco:hover .event__prosecco-description {
     transform: translateY(-100%);
@@ -508,7 +490,7 @@ a:visited {
   .event__coffee-description h3, .event p {
     margin: 0;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
   }
   .event__coffee:hover .event__coffee-description {
     transform: translateY(-100%);
@@ -545,7 +527,7 @@ a:visited {
   .event__food-description h3, .event p {
     margin: 0;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
   }
   .event__food:hover .event__food-description {
     transform: translateY(-100%);
@@ -583,7 +565,7 @@ a:visited {
   .event__birthday-description h3, .event p {
     margin: 0;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
   }
   .event__birthday:hover .event__birthday-description {
     transform: translateY(-100%);
@@ -675,6 +657,7 @@ a:visited {
 
 .accessories__gifts {
   text-align: center;
+  font-size: 25px;
 }
 .accessories__bag {
   border-radius: 5px;
@@ -723,7 +706,7 @@ a:visited {
   }
 
   .accessories__gifts {
-    font-size: 50px;
+    font-size: 35px;
   }
   .accessories__bag {
     margin: 0 40px 0 30px;
@@ -743,6 +726,7 @@ a:visited {
     font-size: 30px;
     padding: 0;
     margin: 5px 20px 20px 60px;
+    color: white;
   }
   .accessories__offer-desc {
     margin-top: 120px;
@@ -759,7 +743,7 @@ a:visited {
     flex-direction: row-reverse;
   }
   .accessories__gifts {
-    font-size: 60px;
+    font-size: 50px;
   }
   .accessories__bag {
     width: 320px;
@@ -815,6 +799,7 @@ a:visited {
 }
 .reservation-title {
   text-align: center;
+  font-size: 25px;
 }
 
 .form-field {
@@ -823,7 +808,7 @@ a:visited {
 
 .form-field label {
   display: block;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .confirm-reservation {
@@ -845,17 +830,21 @@ a:visited {
   margin-left: 30px;
 }
 
+.form-field input {
+  width: 80%;
+}
+
 @media screen and (min-width: 640px) {
   .reservation-title {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .form-field {
-    margin: 10px 30px 10px 40px;
+    margin: 10px 30px 10px 170px;
   }
 
   .form-field label {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .confirm-reservation {
@@ -863,16 +852,17 @@ a:visited {
   }
 
   .gdpr {
-    margin-left: 40px;
+    margin-left: 170px;
   }
 }
 @media screen and (min-width: 1040px) {
   .reservation-title {
     text-align: center;
+    font-size: 50px;
   }
 
   .form-field {
-    margin: 10px 300px 10px 300px;
+    margin: 10px 300px 10px 500px;
   }
 
   .form-field label {
@@ -880,17 +870,21 @@ a:visited {
   }
 
   .confirm-reservation {
-    margin: 20px 50px 30px 630px;
+    margin: 20px 100px 30px 650px;
   }
 
   .gdpr {
-    margin-left: 300px;
+    margin-left: 500px;
   }
 
   .form-field input {
-    width: 100%;
+    width: 70%;
   }
 }
+.reservation-title {
+  font-size: 25px;
+}
+
 .reservation__thanks,
 .reservation__mail {
   text-align: center;
@@ -908,6 +902,10 @@ a:visited {
 }
 
 @media screen and (min-width: 640px) {
+  .reservation-title {
+    font-size: 35px;
+  }
+
   .reservation {
     margin: 90px;
     padding: 20px;
@@ -924,7 +922,7 @@ a:visited {
 }
 @media screen and (min-width: 1040px) {
   .reservation-title {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .reservation {
@@ -1099,8 +1097,8 @@ a:visited {
 }
 .offer-title {
   text-align: center;
-  color: white;
-  font-size: 40px;
+  color: black;
+  font-size: 25px;
 }
 
 .offer__box {
@@ -1108,47 +1106,41 @@ a:visited {
   justify-content: space-between;
   margin: 0 20px 10px 30px;
 }
-.offer__title {
-  text-align: center;
-  color: white;
-  font-size: 30px;
-}
 .offer__meal {
   margin: 0 0 0 30px;
   font-size: 16px;
-  color: white;
+  color: black;
 }
 .offer__line {
   margin: 0 30px 0 30px;
 }
 .offer__description, .offer__price {
   margin: 0 20px 20px 0;
-  color: white;
+  color: black;
   font-size: 15px;
 }
 .offer__h5 {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 .offer__coffee-title, .offer__coffee-price {
   margin: 0 20px 5px 0;
-  color: white;
-  font-size: 15px;
+  color: black;
 }
 .offer__hot-title, .offer__hot-price {
   margin: 0 20px 5px 0;
-  color: white;
+  color: black;
   font-size: 15px;
 }
 .offer__softd-title, .offer__softd-price {
   margin: 0 20px 5px 0;
-  color: white;
+  color: black;
   font-size: 15px;
 }
 .offer__alcohol-title, .offer__alcohol-price {
   margin: 0 20px 5px 0;
-  color: white;
+  color: black;
   font-size: 15px;
 }
 
@@ -1173,40 +1165,40 @@ a:visited {
 
 @media screen and (min-width: 640px) {
   .offer-title {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .offer__meal {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .offer__description,
 .offer__price {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .offer__h5 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .offer__coffee-title,
 .offer__coffee-price {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .offer__hot-title,
 .offer__hot-price {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .offer__softd-title,
 .offer__softd-price {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .offer__alcohol-title,
 .offer__alcohol-price {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .gallery__grid {
@@ -1282,8 +1274,8 @@ a:visited {
 }
 .second-header-phone {
   font-weight: bold;
-  font-size: 20px;
-  margin: 0 0 0 360px;
+  font-size: 15px;
+  margin: 0 0 0 390px;
 }
 
 .logo-orange {
@@ -1362,8 +1354,8 @@ a:visited {
 
 @media screen and (min-width: 640px) {
   .second-header-phone {
-    font-size: 30px;
-    margin: 0 0 0 690px;
+    font-size: 25px;
+    margin: 0 0 0 720px;
   }
 
   .logo-orange {
@@ -1383,8 +1375,8 @@ a:visited {
 }
 @media screen and (min-width: 1040px) {
   .second-header-phone {
-    font-size: 25px;
-    margin: 0 0 0 1220px;
+    font-size: 35px;
+    margin: 0 0 0 1160px;
   }
 
   .logo-orange {
@@ -1430,7 +1422,7 @@ a:visited {
 }
 .events__main-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
 .events__photo-prosecco, .events__photo-coffee, .events__photo-bread, .events__photo-drink {
@@ -1438,7 +1430,7 @@ a:visited {
 }
 .events__title-prosecco, .events__title-coffee, .events__title-bread, .events__title-drink {
   text-align: center;
-  font-size: 25px;
+  font-size: 23px;
   margin: 20px 0;
 }
 .events__date-prosecco, .events__date-coffee, .events__date-bread, .events__date-drink {
@@ -1452,7 +1444,7 @@ a:visited {
   padding: 10px;
   margin: 0;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .events-line1 {
@@ -1465,16 +1457,16 @@ a:visited {
 
 @media screen and (min-width: 640px) {
   .events__main-title {
-    font-size: 50px;
+    font-size: 35px;
   }
   .events__title-prosecco, .events__title-coffee, .events__title-bread, .events__title-drink {
-    font-size: 40px;
+    font-size: 28px;
   }
   .events__date-prosecco, .events__date-coffee, .events__date-bread, .events__date-drink {
-    font-size: 30px;
+    font-size: 25px;
   }
   .events__descriptions-prosecco, .events__descriptions-coffee, .events__descriptions-bread, .events__descriptions-drink {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .events-line1 {
@@ -1485,8 +1477,23 @@ a:visited {
     margin: 0 50px 8px 50px;
   }
 }
+@media screen and (min-width: 1040px) {
+  .events__main-title {
+    font-size: 50px;
+  }
+  .events__title-prosecco, .events__title-coffee, .events__title-bread, .events__title-drink {
+    font-size: 35px;
+  }
+  .events__date-prosecco, .events__date-coffee, .events__date-bread, .events__date-drink {
+    font-size: 30px;
+  }
+  .events__descriptions-prosecco, .events__descriptions-coffee, .events__descriptions-bread, .events__descriptions-drink {
+    font-size: 25px;
+  }
+}
 .gifts-title {
   text-align: center;
+  font-size: 25px;
 }
 
 .gift1 {
@@ -1494,23 +1501,24 @@ a:visited {
   margin: 5px 10px 5px 30px;
 }
 .gift1__bag {
-  max-width: 100%;
-  height: auto;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
 .gift1__title {
-  margin: 10px 0 5px 5px;
+  margin: 10px 0 5px 10px;
   font-size: 20px;
 }
 .gift1__price {
-  margin: 0 0 0 5px;
+  margin: 0 0 0 10px;
+  font-size: 15px;
 }
 .gift1__line {
-  margin: 5px 150px 5px 5px;
+  margin: 5px 150px 5px 10px;
 }
 .gift1__description {
-  margin: 0 10px 0 5px;
+  margin: 0 10px 0 10px;
+  font-size: 15px;
 }
 
 .gift2 {
@@ -1519,8 +1527,7 @@ a:visited {
   margin: 10px 30px 5px 10px;
 }
 .gift2__hoodie {
-  max-width: 100%;
-  height: auto;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
@@ -1530,12 +1537,14 @@ a:visited {
 }
 .gift2__price {
   margin: 0 0 0 20px;
+  font-size: 15px;
 }
 .gift2__line {
-  margin: 5px 90px 5px 20px;
+  margin: 5px 150px 5px 22px;
 }
 .gift2__description {
-  margin: 0 0 0 20px;
+  margin: 0 7px 0 20px;
+  font-size: 15px;
 }
 
 .gift3 {
@@ -1543,7 +1552,7 @@ a:visited {
   margin: 5px 10px 5px 30px;
 }
 .gift3__tshirt {
-  max-width: 100%;
+  width: 150px;
   height: auto;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
@@ -1554,22 +1563,23 @@ a:visited {
 }
 .gift3__price {
   margin: 0 0 0 5px;
+  font-size: 15px;
 }
 .gift3__line {
-  margin: 5px 150px 5px 5px;
+  margin: 5px 150px 5px 10px;
 }
 .gift3__description {
   margin: 0 10px 0 5px;
+  font-size: 15px;
 }
 
 .gift4 {
   display: flex;
   flex-direction: row-reverse;
-  margin: 10px 30px 5px 10px;
+  margin: 5px 30px 5px 10px;
 }
 .gift4__mug {
-  max-width: 100%;
-  height: auto;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
@@ -1579,12 +1589,14 @@ a:visited {
 }
 .gift4__price {
   margin: 0 0 0 20px;
+  font-size: 15px;
 }
 .gift4__line {
-  margin: 5px 90px 5px 20px;
+  margin: 5px 150px 5px 22px;
 }
 .gift4__description {
   margin: 0 0 0 20px;
+  font-size: 15px;
 }
 
 .gift5 {
@@ -1592,8 +1604,7 @@ a:visited {
   margin: 5px 10px 5px 30px;
 }
 .gift5__tin-mug {
-  max-width: 100%;
-  height: auto;
+  width: 150px;
   padding: 0 0px 60px 0px;
   margin-right: 10px;
 }
@@ -1603,17 +1614,26 @@ a:visited {
 }
 .gift5__price {
   margin: 0 0 0 5px;
+  font-size: 15px;
 }
 .gift5__line {
-  margin: 5px 150px 5px 5px;
+  margin: 5px 150px 5px 10px;
 }
 .gift5__description {
   margin: 0 10px 0 5px;
+  font-size: 15px;
+}
+
+.produkty-info {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px 5px 10px;
 }
 
 @media screen and (min-width: 640px) {
   .gifts-title {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   .gift1 {
@@ -1624,18 +1644,18 @@ a:visited {
   }
   .gift1__title {
     margin: 30px 0 5px 20px;
-    font-size: 30px;
+    font-size: 28px;
   }
   .gift1__price {
     margin: 0 0 0 20px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .gift1__line {
     margin: 5px 150px 5px 20px;
   }
   .gift1__description {
     margin: 0 10px 0 20px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .gift2 {
@@ -1643,19 +1663,22 @@ a:visited {
   }
   .gift2__hoodie {
     width: 300px;
+    margin: 15px 20px 5px 50px;
   }
   .gift2__title {
-    font-size: 25px;
+    font-size: 28px;
+    margin-left: 40px;
   }
   .gift2__price {
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 40px;
   }
   .gift2__line {
-    margin: 5px 90px 5px 20px;
+    margin: 5px 230px 5px 40px;
   }
   .gift2__description {
-    margin: 0 40px 0 20px;
-    font-size: 25px;
+    margin: 0 40px 0 40px;
+    font-size: 20px;
   }
 
   .gift3 {
@@ -1666,18 +1689,18 @@ a:visited {
   }
   .gift3__title {
     margin: 30px 0 5px 20px;
-    font-size: 30px;
+    font-size: 28px;
   }
   .gift3__price {
     margin: 0 0 0 20px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .gift3__line {
-    margin: 5px 150px 5px 20px;
+    margin: 5px 270px 5px 20px;
   }
   .gift3__description {
-    margin: 0 10px 0 20px;
-    font-size: 25px;
+    margin: 0 80px 0 20px;
+    font-size: 20px;
   }
 
   .gift4 {
@@ -1685,19 +1708,22 @@ a:visited {
   }
   .gift4__mug {
     width: 300px;
+    margin: 15px 20px 5px 50px;
   }
   .gift4__title {
-    font-size: 25px;
+    font-size: 28px;
+    margin-left: 40px;
   }
   .gift4__price {
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 40px;
   }
   .gift4__line {
-    margin: 5px 90px 5px 20px;
+    margin: 5px 200px 5px 40px;
   }
   .gift4__description {
-    margin: 0 40px 0 20px;
-    font-size: 25px;
+    margin: 0 40px 0 40px;
+    font-size: 20px;
   }
 
   .gift5 {
@@ -1711,15 +1737,152 @@ a:visited {
     font-size: 30px;
   }
   .gift5__price {
-    margin: 30px 0 5px 20px;
-    font-size: 30px;
+    margin: 0 0 5px 20px;
+    font-size: 20px;
   }
   .gift5__line {
-    margin: 5px 150px 5px 5px;
+    margin: 5px 80px 5px 20px;
   }
   .gift5__description {
     margin: 0 10px 0 20px;
+    font-size: 20px;
+  }
+
+  .produkty-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px 5px 20px;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .gifts-title {
+    font-size: 50px;
+  }
+
+  .gift-box1 {
+    display: flex;
+  }
+
+  .gift1 {
+    width: 50%;
+    margin: 10px 50px 10px 50px;
+  }
+  .gift1__bag {
+    width: 250px;
+  }
+  .gift1__title {
+    margin: 40px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift1__price {
     font-size: 25px;
+    margin: 0 0 5px 20px;
+  }
+  .gift1__description {
+    font-size: 20px;
+  }
+
+  .gift2 {
+    width: 50%;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .gift2__hoodie {
+    width: 350px;
+    margin: 45px 0 0 0;
+  }
+  .gift2__title {
+    margin: 70px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift2__price {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .gift2__description {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .gift2__line {
+    margin: 5px 80px 5px 20px;
+  }
+
+  .gift-box2 {
+    display: flex;
+  }
+
+  .gift3 {
+    width: 50%;
+    margin: 10px 50px 10px 50px;
+  }
+  .gift3__tshirt {
+    width: 245px;
+  }
+  .gift3__title {
+    margin: 40px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift3__price {
+    font-size: 25px;
+    margin: 0 0 5px 20px;
+  }
+  .gift3__description {
+    font-size: 20px;
+    margin: 0 20px 5px 20px;
+  }
+  .gift3__line {
+    margin: 0 160px 0 20px;
+  }
+
+  .gift4 {
+    width: 50%;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .gift4__mug {
+    width: 350px;
+    margin: 45px 0 0 0;
+  }
+  .gift4__title {
+    margin: 70px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift4__price {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .gift4__description {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .gift4__line {
+    margin: 5px 80px 5px 20px;
+  }
+
+  .gift5 {
+    width: 50%;
+    margin: 10px 50px 10px 50px;
+  }
+  .gift5__tin-mug {
+    width: 250px;
+  }
+  .gift5__title {
+    margin: 40px 0 5px 20px;
+    font-size: 30px;
+  }
+  .gift5__price {
+    font-size: 25px;
+    margin: 0 0 5px 20px;
+  }
+  .gift5__description {
+    font-size: 20px;
+  }
+  .gift5__line {
+    margin: 0 110px 0 20px;
+  }
+  .gift5__line {
+    margin: 0 60px 0 20px;
   }
 }
 html {
