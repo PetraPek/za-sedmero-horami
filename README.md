@@ -1,3 +1,5 @@
+# za-sedmero-horami
+
 Záverečný projekt do kurzu Staň se kodérkou.
 
 Součástí online kurzu Staň se kóderkou byl závěrečný projekt. Projekt byl na volné téma - úkol zněl jasně, vytvořit webovou stránku podle vlastního návrhu, 
