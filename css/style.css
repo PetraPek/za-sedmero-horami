@@ -1885,10 +1885,13 @@ a:visited {
     margin: 0 60px 0 20px;
   }
 }
-html {
+/*
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }*/
+*,
+*:after,
+*:before {
   box-sizing: border-box;
-}
-
-*, ::before, ::after {
-  box-sizing: inherit;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */
