@@ -3,7 +3,7 @@
 Záverečný projekt do kurzu Staň se kodérkou.
 
 Součástí online kurzu Staň se kóderkou byl závěrečný projekt. Projekt byl na volné téma - úkol zněl jasně, vytvořit webovou stránku podle vlastního návrhu, 
-na vlastní téma. Pro úspěšné zakončení kurzu a získání certifikátu bylo potřeba splnit minimální požadavky:
+na vlastní téma. Výstupem celého kurzu bylo splnění stanovených požadavků, kdy jeden z nich byl závěrečný projekt. V závěrečném projektu bylo potřeba splnit minimální požadavky:
 
   - jedná se o vícestránkový web, má minimálně 4 různé obsahové stránky
   - používá flexbox nebo CSS grid
@@ -14,4 +14,4 @@ na vlastní téma. Pro úspěšné zakončení kurzu a získání certifikátu b
         - (nebo) používá Sass pro lepší organizaci CSS a rozdělení kódu do menších souborů
         - (nebo) využívá kolekce pro vytvoření novinek, článků na blogu, apod., nebo obsah generovaný z dat (FAQ, seznam zaměstnanců, poboček, produktů, apod.)
   
-Pro tvorbu grafického designu jsem využívala Figmu
+Pro tvorbu grafického designu jsem využívala Figmu. V rámci kurzu jsme měli výukové lekce s úvodem do UX designu.
