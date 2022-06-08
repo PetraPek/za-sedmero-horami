@@ -2,8 +2,9 @@
 
 Záverečný projekt v kurzu Staň se kodérkou.
 
-Součástí online kurzu Staň se kóderkou byl závěrečný projekt. Projekt byl na volné téma - úkol zněl jasně, vytvořit webovou stránku podle vlastního návrhu, 
-na vlastní téma. Výstupem celého kurzu bylo splnění stanovených požadavků, kdy jeden z nich byl závěrečný projekt. V závěrečném projektu bylo potřeba splnit minimální požadavky:
+Projekt byl na volné téma - úkol zněl jasně, vytvořit webovou stránku podle vlastního návrhu, na vlastní téma. Měli jsme být v roli jak potencionálního zákazníka, designera, tak kodéra. K projektu jsme si museli vše vymyslet sami od A do Z. 
+
+V závěrečném projektu bylo potřeba splnit minimální požadavky:
 
   - jedná se o vícestránkový web, má minimálně 4 různé obsahové stránky
   - používá flexbox nebo CSS grid
